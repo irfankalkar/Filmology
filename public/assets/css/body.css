@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(15, 44, 56);
+}
+
+.line_btw_header_navbar{
+    background-color: rgb(226, 226, 226);
+    width: 100%;
+    height: 3px;
+}

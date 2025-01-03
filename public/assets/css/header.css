@@ -1,0 +1,392 @@
+/* .border_white{
+    border: solid 1px white;
+}
+
+.border_orange{
+    border: solid 1px orange;
+}
+
+.border_green{
+    border: solid 1px greenyellow;
+}
+
+
+.border_blue{
+    border: solid 2px cornflowerblue;
+} */
+
+
+
+
+
+
+header, header nav{
+    background-color: #353535;
+}
+
+header .container-fluid {
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.logo_container img{
+    width: 200px;
+}
+
+.slogan_left div, .slogan_left_copy div, .slogan_right div{
+    color: rgb(7, 175, 247);
+    font-size: 19px;
+    border: solid 3px rgb(7, 175, 247);
+
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.slogan_left, .slogan_left_copy{
+    display:none;
+}
+
+.header_items{
+    display: flex !important;
+    flex-direction: row;
+    justify-content: end;
+
+    padding-left: 0;
+    padding-right: 0;
+}
+
+
+
+
+
+.header_navbar_container ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header_options{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.header_options .nav-link{
+    color: white;
+}
+
+.header_options .nav-link:hover{
+    border: solid 2px rgb(168, 226, 251);
+    color: rgb(168, 226, 251);
+    border-radius: 10px;
+}
+
+
+
+
+
+.search_container input{
+    border: none;
+}
+
+.search_container input::placeholder{
+    opacity: 1;
+    color: rgb(170, 168, 168);
+}
+
+.search_container input:focus{
+    border: solid 2px rgb(7, 175, 247);
+}
+
+.search_container .btn{
+    color: white;
+    border: solid 1px white;
+}
+
+
+.search_container .btn:hover{
+    background-color: rgb(7, 175, 247);
+    color: white;
+    border: none;
+}
+
+
+
+.profile_icon_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.profile_icon_container i{
+    color:white;
+    font-size:35px;
+}
+
+.profile_icon_container .bi-person-fill:hover{
+    border-radius: 5px;
+    border: solid 2px rgb(168, 226, 251);
+    color: rgb(168, 226, 251);
+}
+
+
+
+
+
+.dark_light_icons_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.dark_light_icons_container i{
+    color:white;
+    font-size:20px;
+}
+
+.dark_light_icons_container .bi-brightness-high-fill:hover{
+    border-radius: 5px;
+    border: solid 2px orange;
+    color: orange;
+}
+
+.dark_light_icons_container .bi-moon-fill:hover{
+    border-radius: 5px;
+    border: solid 2px rgb(0, 159, 227);
+    color: rgb(0, 159, 227);
+}
+
+
+
+
+.more_options_icon_container{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .slogan_right {
+        display: none;
+    }
+
+    .slogan_left {
+        display: block;
+        position: absolute;
+        top: 20%;
+        left: 1.7%;
+
+        /* border: solid 1px white; */
+        width: 15%;
+    }
+
+    .slogan_left div{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        border: none;
+
+        font-size: 15px;
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+    .header_options{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    .header_items{
+        justify-content:space-between;
+    }
+  }
+
+
+
+  @media (min-width: 768px) and (max-width: 991px) {
+
+    .slogan_right {
+        display: none;
+    }
+
+    .slogan_left {
+        display: block;
+        position: absolute;
+        top: 30%;
+        left: 3%;
+
+        /* border: solid 1px white; */
+        width: 19%;
+    }
+
+    .slogan_left div{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-between;
+        border: none;
+
+        font-size: 15px;
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .header_options{
+        padding-top: 14px;
+        padding-bottom: 14px;
+    }
+
+    .header_items{
+        flex-wrap: wrap;
+    }
+
+    .header_navbar_container{
+        order: 1;
+        flex: 1 1 60%;
+    }
+
+    .header_navbar_container ul{
+        justify-content: space-between;
+    }
+
+    .profile_icon_container{
+        order: 2;
+        flex: 1 1 15%;
+    }
+
+    .dark_light_icons_container{
+        order: 3;
+        flex: 1 1 15%;
+    }
+
+    .search_container{
+        order: 4;
+        flex: 1 1 100%;
+    }
+
+
+
+  }
+
+
+  @media (min-width: 0px) and (max-width: 767px) {
+
+    header .container-fluid {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    
+    .logo_container img{
+        width: 105px;
+    }
+
+    .slogan_left, .slogan_right{
+        display: none;
+    }
+
+    .slogan_left_copy {
+        display: block;
+        width: 50%;
+    }
+
+    .slogan_left_copy div{
+
+        flex-direction: row;
+        justify-content:space-between;
+        border: none;
+
+        font-size: 13px;
+        color: rgb(172, 172, 172);
+
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+
+
+    .header_items{
+        flex-wrap: wrap;
+    }
+    
+    .search_container{
+        order: 1;
+        flex: 1 1 50%;
+    }
+
+    .profile_icon_container{
+        order: 2;
+        flex: 1 1 1%;
+    }
+
+    .dark_light_icons_container{
+        order: 3;
+        flex: 1 1 1%;
+    }
+
+    .header_navbar_container{
+        order: 4;
+        flex: 1 1 50%;
+    }
+
+
+
+    .header_navbar_container ul{
+        flex-direction: column;
+    }
+
+
+    
+    .more_options_icon_container{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+        width: 50px;
+    }
+    
+    .more_options_icon_container{
+        color:white;
+        font-size:25px;
+        border: solid 1px white;
+        border-radius: 5px;
+    }
+    
+    .more_options_icon_container:hover{
+        border: none;
+        background-color: rgb(183, 183, 183);
+        color: black;
+    }
+
+    #responsive_header_items_field{
+        border: solid 1px white;
+
+        border-left: none;
+        border-right: none;
+        border-bottom: none;
+
+        display: none;
+    }
+
+    .logo_container, .slogan_left_copy{
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+  }
