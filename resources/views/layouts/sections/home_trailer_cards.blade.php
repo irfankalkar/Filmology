@@ -1,7 +1,10 @@
 
-<div class="col-md-12 rounded-2 each_section_design other_trailers">
+    {{-- En üst açık mavi renki Container --}}
+<div class="col-md-12 each_section_design other_trailers">
 
-    <div class="card" style="max-width: 540px;">
+
+        {{-- Kutunun iç ana öğelerinden her biri - Kolaylıkla Özelleştirilebilir --}}
+    <div class="card each_content" style="max-width: 540px; --mt:14px; --mb:14px; --br_size:2px;">
         <div class="row">
 
             <div class="col-md-4 cover_photo">
@@ -39,7 +42,8 @@
         </div>
     </div>
 
-    <div class="card" style="max-width: 540px;">
+        {{-- Kutunun iç ana öğelerinden her biri - Kolaylıkla Özelleştirilebilir --}}
+    <div class="card each_content" style="max-width: 540px; --mt:14px; --mb:14px; --br_size:2px;">
         <div class="row">
 
             <div class="col-md-4 cover_photo">
@@ -77,7 +81,8 @@
         </div>
     </div>
 
-    <div class="card" style="max-width: 540px;">
+        {{-- Kutunun iç ana öğelerinden her biri - Kolaylıkla Özelleştirilebilir --}}
+    <div class="card each_content" style="max-width: 540px; --mt:14px; --mb:14px; --br_size:2px;">
         <div class="row">
 
             <div class="col-md-4 cover_photo">
@@ -114,5 +119,6 @@
 
         </div>
     </div>
+
 
 </div>

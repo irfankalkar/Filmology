@@ -1,17 +1,28 @@
 
-<div class="col-md-12 rounded-2 each_section_design trailer">
+    {{-- En üst açık mavi renki Container --}}
+<div class="col-md-12 each_section_design trailer">
 
-    {{-- <div class="rounded-2 trailer_content border_green"> --}}
-
-        <video 
-            src="{{asset('video/video_example_1.mkv')}}" type="video/x-matroska" class="rounded-2">
-        </video>
-
-    {{-- </div> --}}
-
-
+        {{-- Kutunun iç ana öğelerinden her biri - Kolaylıkla Özelleştirilebilir --}}
+    <video src="{{asset('video/video_example_1.mkv')}}" type="video/x-matroska" class="each_content" style="--mt:16px; --mb:16px; --br_size:2px;"> </video>
 
 </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

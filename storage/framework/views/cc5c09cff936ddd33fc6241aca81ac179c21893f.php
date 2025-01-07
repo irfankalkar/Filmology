@@ -53,10 +53,11 @@
 
         <main class="container mt-4 mb-5 main_container_outer border_white">
             
-            <div class="row main_container_outer_row border_orange">        
+            <div class="row main_container_outer_row border_orange">
                 <div class="col-md-12 main_container_inner border_green">
 
-                    <div class="row rounded-2 main_container_inner_row border_white">
+                        
+                    <div class="row rounded-2 main_container_inner_row border_red">
 
 
                         <?php echo $__env->yieldContent('content_1'); ?>
@@ -64,6 +65,8 @@
                         <?php echo $__env->yieldContent('content_2'); ?>
 
                         <?php echo $__env->yieldContent('content_3'); ?>
+
+                        <?php echo $__env->yieldContent('content_4'); ?>
 
 
                     </div>

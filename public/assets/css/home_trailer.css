@@ -24,11 +24,6 @@
     
 
 .other_trailers .card{
-    margin-top: 14px;
-    margin-bottom: 14px;
-
-    border: solid 2px rgb(209, 207, 207);
-
     background-color: rgb(15, 44, 56);
     color:rgb(212, 212, 212);
 }
@@ -125,10 +120,6 @@
 .trailer video{
     min-width: 100%;
     flex: 1 1 auto;  /* Esnek büyüme ve küçülme */
-    margin-top: 15px;
-    margin-bottom: 15px;
-
-    /* border: solid 2px rgb(209, 207, 207); */
 }
 
 

@@ -9,6 +9,7 @@
 
 @section('content_1')
 
+        {{-- En üst açık mavi renkli Container'in görünmez dış kapsayıcısı --}}
     <div class="col-md-5 each_section"> {{-- MAIN İÇİNDE HER BİR SECTİON'UN GRID YAPISININ BELİRLENECEĞİ ALAN --}}
         <div class="row p-2">
 
@@ -29,6 +30,7 @@
 
 @section('content_2')
 
+        {{-- En üst açık mavi renkli Container'in görünmez dış kapsayıcısı --}}
     <div class="col-md-7 each_section"> {{-- MAIN İÇİNDE HER BİR SECTİON'UN GRID YAPISININ BELİRLENECEĞİ ALAN --}}
         <div class="row p-2">
 
@@ -49,6 +51,29 @@
 
 @section('content_3')
 
+        {{-- En üst açık mavi renkli Container'in görünmez dış kapsayıcısı --}}
+    <div class="col-md-12 each_section"> {{-- MAIN İÇİNDE HER BİR SECTİON'UN GRID YAPISININ BELİRLENECEĞİ ALAN --}}
+        <div class="row p-2">
+
+            {{-- ---- --}}
+                @include("layouts.sections.advertisement_1")
+            {{-- ---- --}}
+
+        </div>
+    </div>
+
+@endsection
+
+
+
+
+{{-- ----------------------------------------------------------------------------- --}}
+{{-- HOME ADVERTISEMENT --}}
+{{-- ----------------------------------------------------------------------------- --}}
+
+@section('content_4')
+
+        {{-- En üst açık mavi renkli Container'in görünmez dış kapsayıcısı --}}
     <div class="col-md-12 each_section"> {{-- MAIN İÇİNDE HER BİR SECTİON'UN GRID YAPISININ BELİRLENECEĞİ ALAN --}}
         <div class="row p-2">
 

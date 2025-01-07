@@ -33,12 +33,18 @@ body{
 
 .each_section .each_section_design{
     border: solid 2px rgb(7, 175, 247);
+    border-radius: 8px;
+
     background-color: rgb(2, 114, 162);
 }
 
-/* .each_section .each_section_design .each_section_design_content{
-    border: solid 2px rgb(209, 207, 207);
-} */
+.each_section .each_content{
+    margin-top: var(--mt);
+    margin-bottom: var(--mb);
+
+    border: solid var(--br_size) white;
+    border-radius: 8px;
+}
 
 
 

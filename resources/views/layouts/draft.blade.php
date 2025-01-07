@@ -53,10 +53,11 @@
 
         <main class="container mt-4 mb-5 main_container_outer border_white">
             
-            <div class="row main_container_outer_row border_orange">        
+            <div class="row main_container_outer_row border_orange">
                 <div class="col-md-12 main_container_inner border_green">
 
-                    <div class="row rounded-2 main_container_inner_row border_white">
+                        {{-- Koyu Mavi Main Container --}}
+                    <div class="row rounded-2 main_container_inner_row border_red">
 
 
                         @yield('content_1')
@@ -64,6 +65,8 @@
                         @yield('content_2')
 
                         @yield('content_3')
+
+                        @yield('content_4')
 
 
                     </div>

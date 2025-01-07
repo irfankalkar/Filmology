@@ -1,9 +1,12 @@
 
-<div class="col-md-12 rounded-2 each_section_design login_form_field">
+        
+<div class="col-md-12 each_section_design login_form_field">
 
-    <div class="login_form_field_content border_white">
+        
+    <div class="each_content" style="--mt:14px; --mb:14px; --br_size:3px;">
 
-        <div class="row px-2 pt-0 pb-2 border_green">
+            
+        <div class="row px-3 pb-3">
 
             <div class="col-md-12 mb-4">
                 <div class="title rounded-bottom">
