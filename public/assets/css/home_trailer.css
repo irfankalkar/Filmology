@@ -1,0 +1,230 @@
+/* Just styling the content of the div, the *magic* in the previous rules */
+
+/* .video-container .caption {
+    z-index: 1;
+    position: relative;
+    text-align: center;
+    color: #dc0000;
+    padding: 10px;
+} */
+
+
+/* .video-container .detay {
+    z-index: 1;
+    width: 400px;
+    height: 150px;
+    position: relative;ss
+    left: 480px;
+    top: 454px;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+    padding: 10px;
+} */
+    
+
+.other_trailers .card{
+    margin-top: 14px;
+    margin-bottom: 14px;
+
+    border: solid 2px rgb(209, 207, 207);
+
+    background-color: rgb(15, 44, 56);
+    color:rgb(212, 212, 212);
+}
+
+.other_trailers .cover_photo {
+    padding-right:0;
+    /* padding-bottom:0 !important; */
+}
+
+.other_trailers .cover_photo img {
+    height: 120px;
+    object-fit: cover;
+    width: 100%;
+
+    border: solid 1px rgb(209, 207, 207);
+
+    border-left: none;
+    border-bottom: none;
+    border-top: none
+}
+
+.other_trailers .card_text_field {
+    padding-left:0;
+}
+
+.other_trailers .card-body {
+    padding-top:8px;
+    padding-bottom:8px;
+    padding-left:16px;
+    padding-right:16px;
+}
+
+.other_trailers .card-title{
+    margin-bottom: 0;
+    padding-bottom: 4px;
+}
+
+.other_trailers .card-title .title_text {
+    overflow: hidden; /* Taşan metni gizler */
+    white-space: nowrap;
+}
+
+.other_trailers .rating {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.other_trailers .rating .list-inline{
+    margin:0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+/* .other_trailers .rating .list-inline .list-inline-item{
+    margin-right: 3px;
+} */
+
+
+
+
+
+
+.other_trailers .card-text{
+    font-size: 12px;
+    padding-top: 4px;
+
+    border: solid 1px rgb(196, 196, 196);
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+
+    max-height: 5rem; /* Sabit yükseklik (3 satır için yaklaşık değer) */
+    overflow: hidden;     /* Taşan metni gizler */
+    text-overflow: ellipsis; /* Üç nokta ekler */
+    display: -webkit-box;
+    display: box;              /* Standartlaştırılan özellik */
+    -webkit-line-clamp: 4;     /* Webkit tarayıcılar için */
+    line-clamp: 4;             /* Standart CSS için */
+    -webkit-box-orient: vertical;
+    box-orient: vertical;      /* Standart CSS için */
+    word-wrap: break-word;     /* Uzun kelimeleri böl */
+}
+
+
+
+
+.trailer{
+    display: flex;
+    height: 100%;
+}
+
+.trailer video{
+    min-width: 100%;
+    flex: 1 1 auto;  /* Esnek büyüme ve küçülme */
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+    /* border: solid 2px rgb(209, 207, 207); */
+}
+
+
+
+
+
+
+
+
+
+
+/* .video-container {
+    position: relative;
+} */
+
+/* .video-container video {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+} */
+
+
+
+/* .video-container .caption {
+    z-index: 1;
+    background-color: #333333;
+    position: absolute;
+    width: 150px;
+    height: 55px;
+    color: white;
+    padding: 10px;
+} */
+
+
+
+/* .video-container .detay {
+    z-index: 1;
+    width: 400px;
+    height: 150px;
+    position: absolute;
+    left: 492px;
+    bottom: 0;
+    text-align: center;
+    color: white;
+    background-color: #333333;
+    padding: 10px;
+} */
+
+/* .video-container .icon {
+    z-index: 1;
+    font-size: 100px;
+    position: absolute;
+    left: 400px;
+    top: 30%;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+
+    transition: font-size 1s;
+} */
+
+/* .video-container .icon:hover {
+    z-index: 1;
+    font-size: 110px;
+    position: absolute;
+    left: 400px;
+    top: 30%;
+    color: blueviolet;
+    padding: 10px;
+    cursor: pointer;
+} */
+
+
+
+/* .border_red{
+    border: solid 1px red;
+}
+
+.border_ocean{
+    border: solid 1px aquamarine;
+}
+
+.border_beyaz{
+    border: solid 1px white;
+}
+
+.border_turuncu{
+    border: solid 1px orange;
+}
+
+.border_sari{
+    border: solid 1px rgb(255, 221, 0);
+}
+
+.border_yesil{
+    border: solid 1px rgb(0, 255, 13);
+} */

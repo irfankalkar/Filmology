@@ -2,8 +2,53 @@ body{
     background-color: rgb(15, 44, 56);
 }
 
+
+
+
+
 .line_btw_header_navbar{
     background-color: rgb(226, 226, 226);
     width: 100%;
     height: 3px;
 }
+
+.header_next_navbar_outer{
+    background-color: rgb(112, 181, 223);
+}
+
+
+
+
+
+.main_container_outer_row{
+    padding: 12px;
+}
+
+.main_container_inner_row{
+    padding: 8px;
+
+    background-color: rgb(30, 80, 102);
+    border: solid 3px rgb(44, 114, 144);
+}
+
+.each_section .each_section_design{
+    border: solid 2px rgb(7, 175, 247);
+    background-color: rgb(2, 114, 162);
+}
+
+/* .each_section .each_section_design .each_section_design_content{
+    border: solid 2px rgb(209, 207, 207);
+} */
+
+
+
+
+.line_for_footer{
+    background-color: white;
+    width: 100%;
+    height: 2px;
+}
+
+
+
+

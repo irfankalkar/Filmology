@@ -1,0 +1,99 @@
+
+
+
+    p{
+        margin-bottom: 12px;
+    }
+        
+/* ------------------------------------------------------------------------------------------------------- */
+/* ------------------------------------------------------------------------------------------------------- */
+
+
+
+
+footer, .footer_container{
+    background-color: black;
+    color:white
+}
+
+.footer_container{
+    padding-top: 12px;
+}
+
+.footer_container .logo_container{
+    display: flex;
+    align-items: center;
+}
+
+
+.footer_container .logo_container .logo{
+    width: 150px;
+}
+
+
+
+
+
+
+.social_field{
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+}
+
+.social_field .follow_us, .contact_field .contact_us{
+    font-weight: bold;
+}
+
+.social_field ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.social_field ul li{
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+.social_field ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.contact_field i{
+    flex-direction: column;
+    margin-right: 10px;
+    color: white;
+    font-size: 20px;
+}
+
+.contact_field i:hover{
+    color: yellow;
+}
+
+
+
+
+
+
+
+.copyright{
+    margin-top: 10px;
+    border-top: 1px solid white;
+    padding-top: 16px;
+}
+
+
+
+
+
+
+
+

@@ -16,3 +16,9 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('front.index');
 });
+
+Route::get('/login_register', function () {
+    return view('front.login_register');
+});
+
+// -> name('login_register_href')

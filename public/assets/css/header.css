@@ -1,4 +1,4 @@
-/* .border_white{
+.border_white{
     border: solid 1px white;
 }
 
@@ -10,10 +10,13 @@
     border: solid 1px greenyellow;
 }
 
-
 .border_blue{
     border: solid 2px cornflowerblue;
-} */
+}
+
+.border_red{
+    border: solid 2px rgb(216, 20, 20);
+}
 
 
 
@@ -134,6 +137,7 @@ header .container-fluid {
     border-radius: 5px;
     border: solid 2px rgb(168, 226, 251);
     color: rgb(168, 226, 251);
+    cursor: pointer;
 }
 
 
