@@ -36,7 +36,7 @@
         <div class="row p-2">
 
             {{-- ---- --}}
-                @include("layouts.sections.home_trailer_video")
+                @include("layouts.sections.register")
             {{-- ---- --}}
 
         </div>

@@ -46,6 +46,14 @@ body{
     border-radius: 8px;
 }
 
+.each_section .each_content_border_color{
+    margin-top: var(--mt);
+    margin-bottom: var(--mb);
+
+    border: solid var(--br_size) rgb(0, 0, 0);
+    border-radius: 8px;
+}
+
 
 
 

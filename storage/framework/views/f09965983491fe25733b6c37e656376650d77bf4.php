@@ -36,7 +36,7 @@
         <div class="row p-2">
 
             
-                <?php echo $__env->make("layouts.sections.home_trailer_video", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                <?php echo $__env->make("layouts.sections.register", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
             
 
         </div>

@@ -1,15 +1,16 @@
 
-.login_form_field .title {
-    background-color: rgb(0, 159, 227);
+.register_form_field .title {
+    background-color: rgb(22, 61, 79);
+    color: rgb(228, 228, 228);
 
     display:flex;
     justify-content: center;
 
-    border: solid 4px rgb(56, 56, 56);
+    border: solid 4px rgb(228, 228, 228);
     border-top: none;
 }
 
-.login_form_field .title h5 {
+.register_form_field .title h5 {
     padding-top: 8px;
     padding-bottom: 8px;
     font-weight: bold;
@@ -20,7 +21,7 @@
 
 
 
-.login_form_field .input-group input, .login_form_field .input-group span{
+.register_form_field .input-group input, .register_form_field .input-group span{
     background-color: transparent;
 
     border: solid 2px white;
@@ -34,13 +35,13 @@
 }
 
 
-.login_form_field .input-group input::placeholder{
+.register_form_field .input-group input::placeholder{
     opacity: 1;
     color: rgb(199, 199, 199);
 }
 
 
-.login_form_field .input-group input:focus {
+.register_form_field .input-group input:focus {
     box-shadow: none;
     outline: none;
 }
@@ -51,33 +52,32 @@
 
 
 
-/* .login_form_field .login_btn{
+.register_form_field .register_btn{
+    background-color: rgb(22, 61, 79);
+    border: solid 2px white;
+    color: rgb(228, 228, 228);;
+}
+
+.register_form_field .register_btn:hover {
+    box-shadow: none;
+    outline: none;
+
     background-color: rgb(5, 172, 243);
     border: solid 2px white;
 }
 
-.login_form_field .login_btn:hover {
-    box-shadow: none;
-    outline: none;
-
-    background-color: rgb(22, 61, 79);
-    border: solid 2px white;
-    color: rgb(228, 228, 228);;
-} */
 
 
 
 
-
-
-.login_form_field .or_field {
+.register_form_field .or_field {
     display: flex;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
 }
 
-.login_form_field .lines {
+.register_form_field .lines {
     width: 35%;
     height: 2.5px;
     background-color: black;
@@ -88,7 +88,7 @@
 
 
 
-.login_form_field .google_btn{
+.register_form_field .google_btn{
     font-size: 16px;
     font-weight: bold;
 
@@ -97,12 +97,12 @@
 }
 
 
-.login_form_field .google_btn .bi-google{
+.register_form_field .google_btn .bi-google{
     margin-right: 10px;
 }
 
 
-.login_form_field .google_btn:hover {
+.register_form_field .google_btn:hover {
     box-shadow: none;
     outline: none;
 
