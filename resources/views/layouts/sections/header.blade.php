@@ -48,13 +48,13 @@
                             <div class="col-md-4 ps-0 header_navbar_container">
                                 <ul class="navbar-nav mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="#">Anasayfa</a>
+                                        <a class="nav-link" aria-current="page" href="{{ route('home_href') }}">Anasayfa</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">Hakkımızda</a>
+                                        <a class="nav-link" href="{{ route('about_href') }}">Hakkımızda</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="#">İletişim</a>
+                                        <a class="nav-link" href="{{ route('contact_href') }}">İletişim</a>
                                     </li>
                                 </ul>
                             </div>
@@ -70,7 +70,13 @@
 
                             <div class="col-md-1 profile_icon_container text-center">
                                 <ul class="list-inline mb-0">
-                                    <li class="list-inline-item"><i class="bi bi-person-fill p-0 m-0"></i></li>
+
+                                    <li class="list-inline-item">
+                                        <a href="{{ route('login_register_href') }}">
+                                            <i class="bi bi-person-fill p-0 m-0"></i>
+                                        </a>
+                                    </li>
+                                    
                                 </ul>
                             </div>
 
@@ -79,12 +85,16 @@
 
                                     <li class="list-inline-item">
                                         <a href="">
-                                            {{-- {{ route('login_register_href') }} --}}
                                             <i class="bi bi-brightness-high-fill p-1"></i>
                                         </a>
                                     </li>
 
-                                    <li class="list-inline-item"><i class="bi bi-moon-fill p-1"></i></li>
+                                    <li class="list-inline-item">
+                                        <a href="">
+                                            <i class="bi bi-moon-fill p-1"></i>
+                                        </a>
+                                    </li>
+                                    
                                 </ul>
                             </div>
 

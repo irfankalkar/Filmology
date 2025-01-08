@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
@@ -15,9 +17,12 @@
 
         {{-- FONTS --}}
     <link href='https://fonts.googleapis.com/css?family=Lato|Roboto:400,900' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@24,400,0,0" />
 
 
+        {{-- PLUGINS --}}
     <link rel="stylesheet" href="{{asset('assets/jquery-text-marquee-master/dist/jquery.text-marquee.min.css')}}">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
 
     {{-- BODY CSS --}}
@@ -29,10 +34,18 @@
         <link rel="stylesheet" href="{{asset('assets/css/navbar.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/home_trailer.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/footer.css')}}">
+
         <link rel="stylesheet" href="{{asset('assets/css/login.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/register.css')}}">
 
         <link rel="stylesheet" href="{{asset('assets/css/login_button.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/register_button.css')}}">
+
+        <link rel="stylesheet" href="{{asset('assets/css/contact.css')}}">
+
+        <link rel="stylesheet" href="{{asset('assets/css/new_movies.css')}}">
+        
+
 </head>
 
 
@@ -63,13 +76,13 @@
 
     {{-- MAIN START --}}
 
-        <main class="container mt-4 mb-5 main_container_outer border_white">
+        <main class="container mt-4 mb-5 main_container_outer">
             
-            <div class="row main_container_outer_row border_orange">
-                <div class="col-md-12 main_container_inner border_green">
+            <div class="row main_container_outer_row">
+                <div class="col-md-12 main_container_inner">
 
                         {{-- Koyu Mavi Main Container --}}
-                    <div class="row rounded-2 main_container_inner_row border_red">
+                    <div class="row rounded-2 main_container_inner_row">
 
 
                         @yield('content_1')
@@ -123,11 +136,15 @@
     <script src="{{ asset('assets/jQuery.Marquee-master/jquery.marquee.min.js') }}"></script>
     <script src="{{ asset('assets/jQuery.Marquee-master/jquery.marquee.js') }}"></script>
 
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
     <script src="{{ asset('assets/js/header.js') }}"></script>
     <script src="{{ asset('assets/js/navbar.js') }}"></script>
     <script src="{{ asset('assets/js/trailer_section.js') }}"></script>
     <script src="{{ asset('assets/js/colorful_borders.js') }}"></script>
+    <script src="{{ asset('assets/js/login_register_button.js') }}"></script>
+    <script src="{{ asset('assets/js/contact.js') }}"></script>
 
-    <script src="{{ asset('assets/js/login_button.js') }}"></script>
+    <script src="{{ asset('assets/js/new_movies.js') }}"></script>
 </body>
 </html>

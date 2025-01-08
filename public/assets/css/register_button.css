@@ -13,7 +13,7 @@
     padding-top: 40px;
 } */
 
-.login_form_field .button_su{
+.register_form_field .button_su{
   overflow: hidden;
   position: relative;
   display: inline-block;
@@ -25,7 +25,7 @@
   /* margin-bottom: 30px; */
 }
 
-.login_form_field .su_button_circle{
+.register_form_field .su_button_circle{
   background-color: rgb(255, 255, 255);
   border-radius: 1000px;
   position: absolute;
@@ -39,9 +39,9 @@
   /*animation-timing-function: ease-in-out; */
 }
 
-.login_form_field .button_su_inner{
+.register_form_field .button_su_inner{
     display: inline-block;
-    background: rgb(0, 159, 227);
+    background: rgb(27, 75, 97);
     color: #F4F4F4;
     font-size: 16px;
     /* font-weight: normal; */
@@ -58,51 +58,51 @@
     z-index: 100000;
 }
 
-.login_form_field .button_text_container{
+.register_form_field .button_text_container{
    position:relative;
    z-index: 10000;
 }
 
-.login_form_field .explode-circle {
-   animation: login_btn_explode 0.5s forwards;
+.register_form_field .explode-circle {
+  animation: register_btn_explode 0.5s forwards;
 
 }
 
-.login_form_field .desplode-circle{
-   animation: login_btn_desplode 0.5s forwards;
+.register_form_field .desplode-circle{
+  animation: register_btn_desplode 0.5s forwards;
 }
 
-@keyframes login_btn_explode {
-    0% {
-      width: 0px;
-      height: 0px;
-      margin-left: 0px;
-      margin-top: 0px;
-      background-color: rgba(255, 255, 255, 0.5);
-  
-    }
-    100% {
-      width: 500px;
-      height: 500px;
-      margin-left: -300px;
-      margin-top: -300px;
-      background-color: rgba(255, 255, 255, 0.5);
-    }
-  }
-  
-  @keyframes login_btn_desplode {
-    0% {
-      width: 500px;
-      height: 500px;
-      margin-left: -300px;
-      margin-top: -300px;
-      background-color: rgba(255, 255, 255, 0.5);
-    }
-    100% {
-      width: 0px;
-      height: 0px;
-      margin-left: 0px;
-      margin-top: 0px;
-      background-color: rgba(255, 255, 255, 0.5);
-    }
-  }
+@keyframes register_btn_explode {
+   0% {
+     width: 0px;
+     height: 0px;
+     margin-left: 0px;
+     margin-top: 0px;
+     background-color: rgba(255, 255, 255, 0.4);
+ 
+   }
+   100% {
+    width: 800px;
+    height: 800px;
+    margin-left: -400px;
+    margin-top: -400px;
+     background-color: rgba(255, 255, 255, 0.4);
+   }
+ }
+ 
+ @keyframes register_btn_desplode {
+   0% {
+    width: 800px;
+    height: 800px;
+    margin-left: -400px;
+    margin-top: -400px;
+     background-color: rgba(255, 255, 255, 0.4);
+   }
+   100% {
+     width: 0px;
+     height: 0px;
+     margin-left: 0px;
+     margin-top: 0px;
+     background-color: rgba(255, 255, 255, 0.4);
+   }
+ }

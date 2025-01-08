@@ -3,6 +3,11 @@ body{
 }
 
 
+.free_margin_bottom{
+    margin-bottom: var(--mb);
+}
+
+
 
 
 

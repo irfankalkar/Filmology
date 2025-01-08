@@ -20,63 +20,6 @@
 
 
 
-// $(document).ready(function () {
-//     $('.card').hover(function () {
-//         // Kartın içindeki yazı ve kutuyu seçelim
-//         var $title = $(this).find('#title_width');
-//         var containerWidth = $title.parent().width(); // Kutunun genişliği
-//         var textWidth = $title[0].scrollWidth; // Yazının gerçek genişliği
-
-//         // Eğer yazı kutuyu taşıyorsa, animasyonu başlat
-//         if (textWidth > containerWidth) {
-//             $title.textMarquee({
-//                 mode: 'bounce'
-//             });
-//         } else {
-//             // Eğer yazı taşmıyorsa, animasyonu durdur
-//             $title.textMarquee('stop');
-//         }
-//     }, function () {
-//         // Mouse karttan ayrıldığında animasyonu durdur
-//         var $title = $(this).find('#title_width');
-//         $title.textMarquee('stop');
-//     });
-// });
-
-
-
-
-
-// $(document).ready(function () {
-//     $('.title_text').marquee({
-//         duration: 5000,
-//         gap: 70,
-//         delayBeforeStart: 0,
-//         direction: 'left',
-//         duplicated: true,
-//         pauseOnHover: true
-//     });
-// });
-
-
-
-// $(document).ready(function () {
-//     $('.title_text').each(function () {
-//         var $this = $(this);
-//         if ($this[0].scrollWidth > $this.innerWidth()) {
-//             $this.hover(
-//                 function () {
-//                     $(this).addClass('marquee');
-//                 },
-//                 function () {
-//                     $(this).removeClass('marquee');
-//                 }
-//             );
-//         }
-//     });
-// });
-
-
 $(document).ready(function () {
     $('.card').each(function () {
         var $card = $(this);
@@ -104,21 +47,3 @@ $(document).ready(function () {
         );
     });
 });
-
-
-
-
-
-
-
-
-
-
-
-// $(document).ready(function(){
-
-//     $('#title_width').textMarquee({
-//         mode: 'loop'
-//         mode: 'bounce'
-//     });
-// });

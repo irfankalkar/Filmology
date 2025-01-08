@@ -26,52 +26,19 @@
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-person-fill"></i> </span>
                         </div>
             
-                        <div class="input-group mb-5">
+                        <div class="input-group free_margin_bottom" style="--mb:101px;">
                             <input type="password" class="form-control placeholder-icon" placeholder="Şifre" aria-label="Username" aria-describedby="basic-addon1">
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-key-fill"></i> </span>
                         </div>
 
 
-                        
-
-
-                        <div class="button_container">
+                        <div class="mb-4 fw-bolder login_btn_field">
                             <div class="button_su">
                               <span class="su_button_circle">
                               </span>
-                              <a href="#" class="button_su_inner">
-                                <span class="button_text_container">
-                                  Simple button
-                                </span>
-                              </a>
-                            </div>
-                      
-                            <div class="button_su">
-                              <span class="su_button_circle">
-                              </span>
-                              <a href="#" class="button_su_inner">
-                                <span class="button_text_container">
-                                  Another button
-                                </span>
-                              </a>
-                            </div>
-                      
-                            <div class="button_su">
-                              <span class="su_button_circle">
-                              </span>
-                              <a href="#" class="button_su_inner">
-                                <span class="button_text_container">
-                                  A third button
-                                </span>
-                              </a>
-                            </div>
-                      
-                            <div class="button_su">
-                              <span class="su_button_circle">
-                              </span>
-                              <a href="#" class="button_su_inner">
-                                <span class="button_text_container">
-                                  A forth button
+                              <a href="#" class="button_su_inner" style="--pdt:5px; --pdb:5px;">
+                                <span class="button_text_container text-dark">
+                                  Giriş Yap
                                 </span>
                               </a>
                             </div>

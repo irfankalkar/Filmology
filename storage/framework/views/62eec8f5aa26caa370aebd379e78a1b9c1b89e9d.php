@@ -71,6 +71,8 @@
 
 
 
+
+
 <?php $__env->startSection('content_4'); ?>
 
         
@@ -78,7 +80,7 @@
         <div class="row p-2">
 
             
-                <?php echo $__env->make("layouts.sections.advertisement_1", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                <?php echo $__env->make("layouts.sections.new_movies", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
             
 
         </div>

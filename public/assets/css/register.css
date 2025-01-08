@@ -1,6 +1,6 @@
 
 .register_form_field .title {
-    background-color: rgb(22, 61, 79);
+    background-color: rgb(27, 75, 97);
     color: rgb(228, 228, 228);
 
     display:flex;
@@ -52,8 +52,8 @@
 
 
 
-.register_form_field .register_btn{
-    background-color: rgb(22, 61, 79);
+/* .register_form_field .register_btn{
+    background-color: rgb(27, 75, 97);
     border: solid 2px white;
     color: rgb(228, 228, 228);;
 }
@@ -64,7 +64,13 @@
 
     background-color: rgb(5, 172, 243);
     border: solid 2px white;
+} */
+
+.register_form_field .register_btn_field{
+    display:flex;
+    justify-content:center;
 }
+
 
 
 

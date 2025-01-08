@@ -1,26 +1,4 @@
-/* Just styling the content of the div, the *magic* in the previous rules */
 
-/* .video-container .caption {
-    z-index: 1;
-    position: relative;
-    text-align: center;
-    color: #dc0000;
-    padding: 10px;
-} */
-
-
-/* .video-container .detay {
-    z-index: 1;
-    width: 400px;
-    height: 150px;
-    position: relative;ss
-    left: 480px;
-    top: 454px;
-    text-align: center;
-    color: white;
-    background-color: #333333;
-    padding: 10px;
-} */
     
 
 .other_trailers .card{
@@ -79,10 +57,6 @@
     justify-content:center;
 }
 
-/* .other_trailers .rating .list-inline .list-inline-item{
-    margin-right: 3px;
-} */
-
 
 
 
@@ -131,21 +105,23 @@
 
 
 
+
+
+
 /* .video-container {
     position: relative;
-} */
+}
 
-/* .video-container video {
+.video-container video {
     width: 100%;
     height: 100%;
     position: absolute;
     object-fit: cover;
     z-index: 0;
-} */
+}
 
 
-
-/* .video-container .caption {
+.video-container .caption {
     z-index: 1;
     background-color: #333333;
     position: absolute;
@@ -153,11 +129,9 @@
     height: 55px;
     color: white;
     padding: 10px;
-} */
+}
 
-
-
-/* .video-container .detay {
+.video-container .detay {
     z-index: 1;
     width: 400px;
     height: 150px;
@@ -168,9 +142,9 @@
     color: white;
     background-color: #333333;
     padding: 10px;
-} */
+}
 
-/* .video-container .icon {
+.video-container .icon {
     z-index: 1;
     font-size: 100px;
     position: absolute;
@@ -181,9 +155,9 @@
     cursor: pointer;
 
     transition: font-size 1s;
-} */
+}
 
-/* .video-container .icon:hover {
+.video-container .icon:hover {
     z-index: 1;
     font-size: 110px;
     position: absolute;
@@ -192,30 +166,4 @@
     color: blueviolet;
     padding: 10px;
     cursor: pointer;
-} */
-
-
-
-/* .border_red{
-    border: solid 1px red;
-}
-
-.border_ocean{
-    border: solid 1px aquamarine;
-}
-
-.border_beyaz{
-    border: solid 1px white;
-}
-
-.border_turuncu{
-    border: solid 1px orange;
-}
-
-.border_sari{
-    border: solid 1px rgb(255, 221, 0);
-}
-
-.border_yesil{
-    border: solid 1px rgb(0, 255, 13);
 } */
