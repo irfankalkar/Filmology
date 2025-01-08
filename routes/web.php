@@ -14,14 +14,6 @@ use App\Http\Controllers\Home_Controller;
 |
 */
 
-Route::get('/', function () {
-    return view('front.index');
-});
-
-Route::get('/login_register', function () {
-    return view('front.login_register');
-});
-
 
 
 Route::get("/",[Home_Controller::class, "home_page"]) -> name('home_href');
