@@ -17,30 +17,40 @@
 
             <div class="col-md-12">
 
-                <form action="" method="">
-        
+                <form action="{{ route("login_form_href") }}" method="POST">
+                    
                     <div class="row">
+
+                        @csrf
             
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control placeholder-icon" placeholder="Kullanıcı Adı" aria-label="Username" aria-describedby="basic-addon1">
+                            <input name="userNameLogin" type="text" class="form-control placeholder-icon" placeholder="Kullanıcı Adı" aria-label="Username" aria-describedby="basic-addon1">
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-person-fill"></i> </span>
                         </div>
             
                         <div class="input-group free_margin_bottom" style="--mb:101px;">
-                            <input type="password" class="form-control placeholder-icon" placeholder="Şifre" aria-label="Username" aria-describedby="basic-addon1">
+                            <input name="passwordLogin" type="password" class="form-control placeholder-icon" placeholder="Şifre" aria-label="Username" aria-describedby="basic-addon1">
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-key-fill"></i> </span>
                         </div>
 
 
                         <div class="mb-4 fw-bolder login_btn_field">
                             <div class="button_su">
-                              <span class="su_button_circle">
-                              </span>
+                              <span class="su_button_circle"> </span>
+{{-- 
                               <a href="#" class="button_su_inner" style="--pdt:5px; --pdb:5px;">
                                 <span class="button_text_container text-dark">
                                   Giriş Yap
                                 </span>
-                              </a>
+                              </a> --}}
+
+                              <button type="submit" class="button_su_inner" style="--pdt:5px; --pdb:5px;">
+                                <span class="button_text_container text-dark">
+                                  Giriş Yap
+                                </span>
+                            </button>
+
+
                             </div>
                         </div>
 

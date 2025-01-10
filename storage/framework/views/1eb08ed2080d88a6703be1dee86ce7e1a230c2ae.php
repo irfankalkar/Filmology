@@ -6,10 +6,6 @@
         <ul class="navbar-nav header_next_navbar_left_container">
 
           <li class="nav-item">
-            <a class="nav-link family_btn" href="#">AİLE</a>
-          </li>
-
-          <li class="nav-item">
             <a class="nav-link action_btn" href="#">AKSİYON</a>
           </li>
 
@@ -18,11 +14,15 @@
           </li>
 
           <li class="nav-item">
-            <a class="nav-link documentary_btn" href="#">BELGESEL</a>
+            <a class="nav-link science_fiction_btn" href="#">BİLİM KURGU</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link biography_btn" href="#">BİYOGRAFİ</a>
+            <a class="nav-link drama_btn" href="#">DRAM</a>
+          </li>
+
+          <li class="nav-item">
+            <a class="nav-link fantastic_btn" href="#">FANTASTİK</a>
           </li>
 
           <li class="nav-item dropdown">
@@ -30,9 +30,6 @@
               VE DAHASI
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item" href="#">Çocuk</a></li>
-              <li><a class="dropdown-item" href="#">Dram</a></li>
-              <li><a class="dropdown-item" href="#">Fantastik</a></li>
               <li><a class="dropdown-item" href="#">Gerilim</a></li>
               <li><a class="dropdown-item" href="#">Gizem</a></li>
               <li><a class="dropdown-item" href="#">Komedi</a></li>

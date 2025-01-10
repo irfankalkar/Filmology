@@ -56,6 +56,8 @@
     padding-bottom: var(--pdb);
 
     z-index: 100000;
+
+    font-weight: bold;
 }
 
 .login_form_field .button_text_container{

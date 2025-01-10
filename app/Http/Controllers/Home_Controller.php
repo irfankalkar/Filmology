@@ -23,11 +23,4 @@ class Home_Controller extends Controller
     {
         return view("front.contact");
     }
-
-
-    public function login_register_page()
-    {
-        return view("front.login_register");
-    }
-
 }
