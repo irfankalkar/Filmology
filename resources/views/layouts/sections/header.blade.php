@@ -80,7 +80,10 @@
                                 </ul>
                             </div>
 
-                            <div class="col-md-1 dark_light_icons_container">
+
+
+
+                            {{-- <div class="col-md-1 dark_light_icons_container">
                                 <ul class="list-inline mb-0 d-flex justify-content-end">
 
                                     <li class="list-inline-item">
@@ -96,7 +99,29 @@
                                     </li>
                                     
                                 </ul>
+                            </div> --}}
+
+
+
+
+
+
+                            <div class="col-md-1 dark_light_icons_container">
+                                <ul class="list-inline mb-0 d-flex justify-content-end">
+                                    <li class="list-inline-item">
+                                        <a href="javascript:void(0);" id="lightButton">
+                                            <i class="bi bi-brightness-high-fill p-1"></i>
+                                        </a>
+                                    </li>
+
+                                    <li class="list-inline-item">
+                                        <a href="javascript:void(0);" id="darkButton">
+                                            <i class="bi bi-moon-fill p-1"></i>
+                                        </a>
+                                    </li>
+                                </ul>
                             </div>
+
 
                         </div>
                     </div>

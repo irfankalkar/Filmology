@@ -80,23 +80,32 @@
                                 </ul>
                             </div>
 
+
+
+
+                            
+
+
+
+
+
+
                             <div class="col-md-1 dark_light_icons_container">
                                 <ul class="list-inline mb-0 d-flex justify-content-end">
+                                    <li class="list-inline-item">
+                                        <a href="javascript:void(0);" id="lightButton">
+                                            <i class="bi bi-brightness-high-fill p-1"></i>
+                                        </a>
+                                    </li>
 
                                     <li class="list-inline-item">
-                                        <a href="<?php echo e(route('light_href')); ?>">
-                                            <i class="bi bi-brightness-high-fill p-1 <?php echo e(Route::is('light_href') ? "bi-brightness-high-fill_active" : ""); ?>"></i>
+                                        <a href="javascript:void(0);" id="darkButton">
+                                            <i class="bi bi-moon-fill p-1"></i>
                                         </a>
                                     </li>
-
-                                    <li class="list-inline-item <?php echo e(Route::is('dark_href') ? "bi-moon-fill_active" : ""); ?>">
-                                        <a href="<?php echo e(route('dark_href')); ?>">
-                                            <i class="bi bi-moon-fill p-1 <?php echo e(Route::is('dark_href') ? "bi-moon-fill_active" : ""); ?>"></i>
-                                        </a>
-                                    </li>
-                                    
                                 </ul>
                             </div>
+
 
                         </div>
                     </div>

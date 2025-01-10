@@ -22,5 +22,5 @@ Route::get("/about",[Home_Controller::class, "about_page"]) -> name('about_href'
 Route::get("/contact",[Home_Controller::class, "contact_page"]) -> name('contact_href');
 Route::get("/login_register",[Home_Controller::class, "login_register_page"]) -> name('login_register_href');
 
-Route::get("/l",[Theme_Controller::class, "light_theme"]) -> name('light_href');
-Route::get("/d",[Theme_Controller::class, "dark_theme"]) -> name('dark_href');
+// Route::get("/l",[Theme_Controller::class, "light_theme"]) -> name('light_href');
+// Route::get("/d",[Theme_Controller::class, "dark_theme"]) -> name('dark_href');

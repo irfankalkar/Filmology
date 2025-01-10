@@ -73,17 +73,14 @@
 {{-- HOME ADVERTISEMENT --}}
 {{-- ----------------------------------------------------------------------------- --}}
 
-@section('content_4')
+{{-- @section('content_4')
 
-        {{-- En üst açık mavi renkli Container'in görünmez dış kapsayıcısı --}}
-    <div class="col-md-12 each_section"> {{-- MAIN İÇİNDE HER BİR SECTİON'UN GRID YAPISININ BELİRLENECEĞİ ALAN --}}
+    <div class="col-md-12 each_section">
         <div class="row p-2">
 
-            {{-- ---- --}}
                 @include("layouts.sections.new_movies")
-            {{-- ---- --}}
 
         </div>
     </div>
 
-@endsection
+@endsection --}}
