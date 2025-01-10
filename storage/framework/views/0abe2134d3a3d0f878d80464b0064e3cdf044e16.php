@@ -48,13 +48,13 @@
                             <div class="col-md-4 ps-0 header_navbar_container">
                                 <ul class="navbar-nav mb-2 mb-lg-0">
                                     <li class="nav-item">
-                                        <a class="nav-link" aria-current="page" href="<?php echo e(route('home_href')); ?>">Anasayfa</a>
+                                        <a class="nav-link <?php echo e(Route::is('home_href') ? "nav_link_active" : ""); ?>" aria-current="page" href="<?php echo e(route('home_href')); ?>">Anasayfa</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo e(route('about_href')); ?>">Hakkımızda</a>
+                                        <a class="nav-link <?php echo e(Route::is('about_href') ? "nav_link_active" : ""); ?>" href="<?php echo e(route('about_href')); ?>">Hakkımızda</a>
                                     </li>
                                     <li class="nav-item">
-                                        <a class="nav-link" href="<?php echo e(route('contact_href')); ?>">İletişim</a>
+                                        <a class="nav-link <?php echo e(Route::is('contact_href') ? "nav_link_active" : ""); ?>" href="<?php echo e(route('contact_href')); ?>">İletişim</a>
                                     </li>
                                 </ul>
                             </div>
@@ -84,14 +84,14 @@
                                 <ul class="list-inline mb-0 d-flex justify-content-end">
 
                                     <li class="list-inline-item">
-                                        <a href="">
-                                            <i class="bi bi-brightness-high-fill p-1"></i>
+                                        <a href="<?php echo e(route('light_href')); ?>">
+                                            <i class="bi bi-brightness-high-fill p-1 <?php echo e(Route::is('light_href') ? "bi-brightness-high-fill_active" : ""); ?>"></i>
                                         </a>
                                     </li>
 
-                                    <li class="list-inline-item">
-                                        <a href="">
-                                            <i class="bi bi-moon-fill p-1"></i>
+                                    <li class="list-inline-item <?php echo e(Route::is('dark_href') ? "bi-moon-fill_active" : ""); ?>">
+                                        <a href="<?php echo e(route('dark_href')); ?>">
+                                            <i class="bi bi-moon-fill p-1 <?php echo e(Route::is('dark_href') ? "bi-moon-fill_active" : ""); ?>"></i>
                                         </a>
                                     </li>
                                     

@@ -86,9 +86,14 @@ header .container-fluid {
 }
 
 .header_options .nav-link:hover{
-    border: solid 2px rgb(168, 226, 251);
-    color: rgb(168, 226, 251);
-    border-radius: 10px;
+    /* border: solid 2px rgb(168, 226, 251); */
+    color: rgb(106, 210, 255);
+    /* border-radius: 10px; */
+}
+
+
+.header_options .nav_link_active{
+    color: rgb(106, 210, 255);
 }
 
 
@@ -134,9 +139,7 @@ header .container-fluid {
 }
 
 .profile_icon_container .bi-person-fill:hover{
-    border-radius: 5px;
-    border: solid 2px rgb(168, 226, 251);
-    color: rgb(168, 226, 251);
+    color: rgb(106, 210, 255);
     cursor: pointer;
 }
 
@@ -150,20 +153,31 @@ header .container-fluid {
     justify-content: end;
 }
 
-.dark_light_icons_container i{
+.dark_light_icons_container .bi-brightness-high-fill, .dark_light_icons_container .bi-moon-fill{
     color:white;
     font-size:20px;
 }
 
+
+
+
+
 .dark_light_icons_container .bi-brightness-high-fill:hover{
-    border-radius: 5px;
-    border: solid 2px orange;
     color: orange;
 }
 
+.dark_light_icons_container .bi-brightness-high-fill_active{
+    color: orange;
+}
+
+
+
+
 .dark_light_icons_container .bi-moon-fill:hover{
-    border-radius: 5px;
-    border: solid 2px rgb(0, 159, 227);
+    color: rgb(0, 159, 227);
+}
+
+.dark_light_icons_container .bi-moon-fill_active{
     color: rgb(0, 159, 227);
 }
 
