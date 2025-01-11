@@ -1,0 +1,245 @@
+/* MOVİE TRAİLER */
+
+.movie_detail_trailer .movie_bg {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+/* .movie_detail_trailer .bookMark{
+    position: absolute;
+    top: 265px;
+    left: 360px;
+    font-size: 26px;
+    color: white;
+} */
+
+.movie_detail_trailer .border1 {
+    border-left: 3px solid white;
+    height: 45px;
+}
+
+.movie_detail_trailer .border2 {
+    border-left: 3px solid white;
+    height: 45px;
+}
+
+.movie_detail_trailer .staricon {
+    color: orange;
+    font-size: 26px;
+    position: absolute;
+    right: 370px;
+    cursor: pointer;
+}
+
+.movie_detail_trailer .staricon:hover {
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.movie_detail_trailer .staricon2 {
+    color: orange;
+    font-size: 26px;
+    position: absolute;
+    right: 240px;
+}
+
+.movie_detail_trailer .staricontext {
+    position: absolute;
+    font-size: 20px;
+    top: 305px;
+    right: 175px;
+}
+
+.movie_detail_trailer .video-container {
+    position: relative;
+}
+
+.movie_detail_trailer .video-container video {
+    width: 97%;
+    height: 96%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.movie_detail_trailer .video-container .icon {
+    z-index: 1;
+    font-size: 100px;
+    position: absolute;
+    left: 400px;
+    top: 30%;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+
+    transition: font-size 1s;
+}
+
+.movie_detail_trailer .video-container .icon:hover {
+    z-index: 1;
+    font-size: 110px;
+    position: absolute;
+    left: 400px;
+    top: 30%;
+    color: blueviolet;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.movie_detail_trailer .imgTrailer {
+    width: 290px;
+    height: 400px;
+}
+
+.movie_detail_trailer .border_bottom {
+    border-bottom: 3px solid black;
+}
+
+
+
+/* MOVİE SLİDER */
+
+.movie_detail_trailer .movie_bg2 {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.movie_detail_trailer .lefticon {
+    opacity: 0.3;
+    width: 70px;
+}
+
+.movie_detail_trailer .lefticon:hover {
+    opacity: 0.5;
+    color: white
+}
+
+.movie_detail_trailer .lefticon:focus {
+    opacity: 0.5;
+    color: white
+}
+
+.movie_detail_trailer .righticon {
+    opacity: 0.3;
+    width: 70px;
+}
+
+.movie_detail_trailer .righticon:hover {
+    opacity: 0.5;
+    color: white
+}
+
+.movie_detail_trailer .righticon:focus {
+    opacity: 0.5;
+    color: white
+}
+
+.movie_detail_trailer .icon1 {
+    color: blueviolet;
+}
+
+.movie_detail_trailer .generally {
+    color: white;
+}
+
+.movie_detail_trailer .imgCard {
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+}
+
+.movie_detail_trailer .imgBee {
+    width: 175px;
+    margin-left: 48px;
+    margin-top: 5px;
+}
+
+.movie_detail_trailer .sicon {
+    color: orange;
+    position: absolute;
+    bottom: 8px;
+    font-size: 20px;
+}
+
+.movie_detail_trailer .cicon {
+    position: absolute;
+    top: 275px;
+    right: 15px;
+    color: white;
+    font-size: 16px;
+}
+
+.movie_detail_trailer .eicon {
+    position: absolute;
+    top: 307px;
+    right: 15px;
+    color: white;
+    font-size: 16px;
+}
+
+.movie_detail_trailer .sicontext {
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 333px;
+}
+
+.movie_detail_trailer .sicontext2 {
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 333px;
+    right: 15px;
+}
+
+.movie_detail_trailer ul {
+    list-style: none;
+    display: flex;
+}
+
+.movie_detail_trailer li {
+    flex-direction: column;
+    margin-right: 30px;
+}
+
+
+
+/* MOVİE COMMENT */
+
+.movie_detail_trailer .movie_bg3 {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.movie_detail_trailer .commenticon {
+    position: absolute;
+    top: 1760px;
+    left: 350px;
+    font-size: 26px;
+    color: white;
+}
+
+.movie_detail_trailer .btncomment {
+    background-color: #c9c8c8;
+    color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.movie_detail_trailer .btncomment:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.movie_detail_trailer .commentarea {
+    background-color: #c9c8c8;
+    border: 3px solid white;
+}

@@ -16,7 +16,14 @@ use App\Http\Controllers\Home_Controller;
 
 
 
-Route::get("/",[Home_Controller::class, "home_page"]) -> name('home_href');
-Route::get("/about",[Home_Controller::class, "about_page"]) -> name('about_href');
-Route::get("/contact",[Home_Controller::class, "contact_page"]) -> name('contact_href');
-Route::get("/login_register",[Home_Controller::class, "login_register_page"]) -> name('login_register_href');
+Route::get("/", [Home_Controller::class, "home_page"])->name('home_href');
+Route::get("/about", [Home_Controller::class, "about_page"])->name('about_href');
+Route::get("/contact", [Home_Controller::class, "contact_page"])->name('contact_href');
+Route::get("/login_register", [Home_Controller::class, "login_register_page"])->name('login_register_href');
+Route::get('/movie_detail', function () {
+    return view('front.movie_detail');
+});
+
+Route::get('/admin', function () {
+    return view('front.movie_add_admin');
+});

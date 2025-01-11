@@ -41,6 +41,9 @@
         <link rel="stylesheet" href="{{asset('assets/css/login_button.css')}}">
         <link rel="stylesheet" href="{{asset('assets/css/register_button.css')}}">
 
+        <link rel="stylesheet" href="{{asset('assets/css/movie_detail.css')}}">
+        <link rel="stylesheet" href="{{asset('assets/css/m_add.css')}}">
+
         <link rel="stylesheet" href="{{asset('assets/css/contact.css')}}">
 
         <link rel="stylesheet" href="{{asset('assets/css/new_movies.css')}}">
@@ -144,6 +147,7 @@
     <script src="{{ asset('assets/js/colorful_borders.js') }}"></script>
     <script src="{{ asset('assets/js/login_register_button.js') }}"></script>
     <script src="{{ asset('assets/js/contact.js') }}"></script>
+    <script src="{{ asset('assets/js/movie_detail.js') }}"></script>
 
     <script src="{{ asset('assets/js/new_movies.js') }}"></script>
 </body>
