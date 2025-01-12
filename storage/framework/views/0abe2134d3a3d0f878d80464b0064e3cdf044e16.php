@@ -6,7 +6,7 @@
 
                 <div class="col-md-2 logo_container">
                     <a class="navbar-brand" href="#">
-                        <img class="" src="<?php echo e(asset('image/logo/Filmology_transparent_no_slogan.png')); ?>" alt="logo_footer">
+                        <img class="" src="<?php echo e(asset('assets/image/logo/Filmology_transparent_no_slogan.png')); ?>" alt="logo_footer">
                     </a>
                 </div>
 

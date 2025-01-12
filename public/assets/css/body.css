@@ -1,5 +1,26 @@
+
 body{
     background-color: rgb(15, 44, 56);
+    /* background-image: url("/assets/image/background/opacity_10_rotated_15.png");
+    background-size: 200px 200px;
+    width: 100vw;
+    height: 100vh;
+    background-size: contain; */
+}
+
+body .background_image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 150vw;
+    height: 150vh;
+    background-image: url("/assets/image/background/opacity_10_rotated_15_and_zoomed.png");
+    /* background-repeat: no-repeat; */
+    background-size: contain;
+    background-position: center;
+    /* transform: rotate(15deg); */
+    z-index: -1;
+    /* pointer-events: none; */
 }
 
 
@@ -51,13 +72,13 @@ body{
     border-radius: 8px;
 }
 
-.each_section .each_content_border_color{
+/* .each_section .each_content_border_blue{
     margin-top: var(--mt);
     margin-bottom: var(--mb);
 
-    border: solid var(--br_size) rgb(0, 0, 0);
+    border: solid var(--br_size) rgb(0, 159, 227);
     border-radius: 8px;
-}
+} */
 
 
 
@@ -71,3 +92,85 @@ body{
 
 
 
+
+
+
+/* İNPUTLAR'DA TASARIMI BOZAN DURUMLARI İPTAL ETMEK İÇİN */
+
+    /* Number İnput'unun yukarı aşağı ikonlarını kaldırmak... */
+
+            /* Chrome, Safari, Edge ve Opera için */
+        input[type="number"]::-webkit-outer-spin-button,
+        input[type="number"]::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+            /* Firefox için */
+        input[type="number"] {
+            appearance: textfield;
+            -moz-appearance: textfield;
+            -webkit-appearance: none;
+        }
+
+
+
+
+
+    /* İnput'larda daha önce girilmiş verilerden dolayı otomatik gelen Autofill verilerinin INPUT'ta oluşturduğu beyaz arka planı kaldırma... */
+
+        /* Chrome ve Safari için */
+        input:-webkit-autofill {
+            box-shadow: 0 0 0px 1000px rgb(2, 122, 173) inset !important;
+            -webkit-text-fill-color: white !important;
+        }
+
+        /* Firefox için */
+        input:-moz-autofill {
+            box-shadow: 0 0 0px 1000px rgb(2, 122, 173) inset !important;
+            color: white !important;
+        }
+
+        /* Edge için */
+        input:-ms-input-placeholder {
+            box-shadow: 0 0 0px 1000px rgb(2, 122, 173) inset !important;
+            color: white !important;
+        }
+
+/* İNPUTLAR'DA TASARIMI BOZAN DURUMLARI İPTAL ETMEK İÇİN */
+
+
+
+
+
+
+/* ÖZELLEŞTİRİLMİŞ TITLE */
+
+    .special_title {
+        position: relative;
+        display: inline-block;
+        font-size: 24px;
+        font-weight: bold;
+        padding: 10px;
+        overflow: hidden;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Yazı gölgesi eklendi */
+    }
+
+    .half_background {
+        position: relative;
+        z-index: 1;
+    }
+
+    .half_background::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%; /* Dikeyde yarısını kaplar */
+        background: rgb(112, 181, 223);
+        z-index: -1;  /* Yazının arkasında kalır */
+    }
+
+/* ÖZELLEŞTİRİLMİŞ TITLE */

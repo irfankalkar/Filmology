@@ -16,6 +16,8 @@
 
 <body>
 
+    <div class="background_image"></div>
+
 
     
 
@@ -23,11 +25,17 @@
             <?php echo $__env->make("layouts.sections.header", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
         </header>
 
-            <div class="container-fluid line_btw_header_navbar"></div>
+        <div class="container-fluid line_btw_header_navbar"></div>
 
-        <nav class="navbar navbar-expand-lg py-0 border_black header_next_navbar_outer">
-            <?php echo $__env->make("layouts.sections.navbar", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-        </nav>
+    
+
+
+
+
+
+    
+
+        <?php echo $__env->yieldContent('navbar'); ?>
 
     
 

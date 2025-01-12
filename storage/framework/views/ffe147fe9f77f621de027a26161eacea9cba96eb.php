@@ -3,7 +3,7 @@
 <div class="col-md-12 each_section_design register_form_field">
 
         
-    <div class="each_content_border_color" style="--mt:14px; --mb:14px; --br_size:3px;">
+    <div class="each_content" style="--mt:14px; --mb:14px; --br_size:3px;">
     
             
         <div class="row px-3 pb-3">
@@ -23,7 +23,7 @@
 
                     <div class="col-md-6">
                         <div class="input-group mb-3">
-                            <input name="fullNameRegister" type="text" class="form-control placeholder-icon" placeholder="Tam Ad" aria-label="Username" aria-describedby="basic-addon1">
+                            <input name="fullNameRegister" type="text" class="form-control placeholder-icon" placeholder="Tam Ad" aria-label="Username" aria-describedby="basic-addon1" required>
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-person-vcard"></i> </span>
                         </div>
                     </div>
@@ -31,7 +31,7 @@
 
                     <div class="col-md-6">
                         <div class="input-group mb-3">
-                            <input name="userNameRegister" type="text" class="form-control placeholder-icon" placeholder="Kullanıcı Adı" aria-label="Username" aria-describedby="basic-addon1">
+                            <input name="userNameRegister" type="text" class="form-control placeholder-icon" placeholder="Kullanıcı Adı" aria-label="Username" aria-describedby="basic-addon1" required>
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-person-fill"></i> </span>
                         </div>
                     </div>
@@ -39,7 +39,7 @@
 
                     <div class="col-md-6">
                         <div class="input-group mb-3">
-                            <input name="phoneNumberRegister" type="number" class="form-control placeholder-icon" placeholder="Telefon Numarası" aria-label="Username" aria-describedby="basic-addon1">
+                            <input name="phoneNumberRegister" type="number" class="form-control placeholder-icon" placeholder="Telefon Numarası" aria-label="Username" aria-describedby="basic-addon1" required>
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-telephone-fill"></i> </span>
                         </div>
                     </div>
@@ -47,7 +47,7 @@
 
                     <div class="col-md-6">
                         <div class="input-group mb-3">
-                            <input name="emailRegister" type="text" class="form-control placeholder-icon" placeholder="E-mail" aria-label="Username" aria-describedby="basic-addon1">
+                            <input name="emailRegister" type="text" class="form-control placeholder-icon" placeholder="E-mail" aria-label="Username" aria-describedby="basic-addon1" required>
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-at"></i> </span>
                         </div>
                     </div>
@@ -55,7 +55,7 @@
 
                     <div class="col-md-6">
                         <div class="col-md-6 input-group mb-5">
-                            <input name="passwordRegister" type="password" class="form-control placeholder-icon" placeholder="Şifre" aria-label="Username" aria-describedby="basic-addon1">
+                            <input name="passwordRegister" type="password" class="form-control placeholder-icon" placeholder="Şifre" aria-label="Username" aria-describedby="basic-addon1" required>
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-key-fill"></i> </span>
                         </div>
                     </div>
@@ -63,7 +63,7 @@
 
                     <div class="col-md-6">
                         <div class="col-md-6 input-group mb-5">
-                            <input name="passwordRegisterAgain" type="password" class="form-control placeholder-icon" placeholder="Şifre (Tekrar)" aria-label="Username" aria-describedby="basic-addon1">
+                            <input name="passwordRegisterAgain" type="password" class="form-control placeholder-icon" placeholder="Şifre (Tekrar)" aria-label="Username" aria-describedby="basic-addon1" required>
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-key-fill"></i> </span>
                         </div>
                     </div>
@@ -96,10 +96,8 @@
             </div>
 
 
-            <div class="row">
-                <div>
-                    <button type="button" class="btn btn-lg btn-light w-100 google_btn p-3"> <i class="bi bi-google"></i> Google ile Devam Et </button>
-                </div>
+            <div class="col-md-12">
+                <button type="button" class="btn btn-lg btn-light w-100 google_btn p-3"> <i class="bi bi-google"></i> Google ile Devam Et </button>
             </div>
 
         </div>

@@ -3,7 +3,7 @@
 <div class="col-md-12 each_section_design register_form_field">
 
         {{-- Kutunun iç ana öğelerinden her biri - Kolaylıkla Özelleştirilebilir --}}
-    <div class="each_content_border_color" style="--mt:14px; --mb:14px; --br_size:3px;">
+    <div class="each_content" style="--mt:14px; --mb:14px; --br_size:3px;">
     
             {{-- Paddingler sayesinde içerik çizgilerden uzaklaşabilir. Daha fazla özelleştirme için kullanılır... --}}
         <div class="row px-3 pb-3">
@@ -100,10 +100,8 @@
             </div>
 
 
-            <div class="row">
-                <div>
-                    <button type="button" class="btn btn-lg btn-light w-100 google_btn p-3"> <i class="bi bi-google"></i> Google ile Devam Et </button>
-                </div>
+            <div class="col-md-12">
+                <button type="button" class="btn btn-lg btn-light w-100 google_btn p-3"> <i class="bi bi-google"></i> Google ile Devam Et </button>
             </div>
 
         </div>

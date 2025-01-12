@@ -4,7 +4,7 @@
         <div class="row">
 
             <div class="col-md-2 logo_container">
-                <img class="logo" src="<?php echo e(asset('image/logo/Filmology_transparent_no_slogan.png')); ?>" alt="logo_footer">
+                <img class="logo" src="<?php echo e(asset('assets/image/logo/Filmology_transparent_no_slogan.png')); ?>" alt="logo_footer">
             </div>
 
             <div class="col-md-5 social_field">

@@ -1,4 +1,5 @@
 
+<nav class="navbar navbar-expand-lg py-0 border_black header_next_navbar_outer">
     <div class="container navbar_items">
 
       <div class="navbar-collapse header_next_navbar">
@@ -75,10 +76,12 @@
               </a>
             </li>
   
-          </ul>
+        </ul>
   
 
       </div>
 
     </div>
+
+</nav>
 <?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/sections/navbar.blade.php ENDPATH**/ ?>

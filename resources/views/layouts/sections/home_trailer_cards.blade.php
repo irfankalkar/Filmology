@@ -8,7 +8,7 @@
         <div class="row">
 
             <div class="col-md-4 cover_photo">
-                <img src="{{asset('image/home_trailers/1.jpg')}}" class="img-fluid rounded-start" alt="...">
+                <img src="{{asset('assets/image/movie_covers/1.jpg')}}" class="img-fluid rounded-start" alt="...">
             </div>
 
 
@@ -47,7 +47,7 @@
         <div class="row">
 
             <div class="col-md-4 cover_photo">
-                <img src="{{asset('image/home_trailers/1.jpg')}}" class="img-fluid rounded-start" alt="...">
+                <img src="{{asset('assets/image/movie_covers/1.jpg')}}" class="img-fluid rounded-start" alt="...">
             </div>
 
 
@@ -86,7 +86,7 @@
         <div class="row">
 
             <div class="col-md-4 cover_photo">
-                <img src="{{asset('image/home_trailers/1.jpg')}}" class="img-fluid rounded-start" alt="...">
+                <img src="{{asset('assets/image/movie_covers/1.jpg')}}" class="img-fluid rounded-start" alt="...">
             </div>
 
 

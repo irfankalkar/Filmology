@@ -16,20 +16,28 @@
 
 <body>
 
+    <div class="background_image"></div>
 
-    {{-- HEADER and NAVBAR START --}}
+
+    {{-- HEADER and LINE UNDER HEADER (START) --}}
 
         <header class="container-fluid">
             @include("layouts.sections.header")
         </header>
 
-            <div class="container-fluid line_btw_header_navbar"></div>
+        <div class="container-fluid line_btw_header_navbar"></div>
 
-        <nav class="navbar navbar-expand-lg py-0 border_black header_next_navbar_outer">
-            @include("layouts.sections.navbar")
-        </nav>
+    {{-- HEADER and LINE UNDER HEADER (END) --}}
 
-    {{-- HEADER and NAVBAR END --}}
+
+
+
+
+    {{-- NAVBAR (START) --}}
+
+        @yield('navbar')
+
+    {{-- NAVBAR (END) --}}
 
 
 
