@@ -75,7 +75,7 @@
 
                             
 
-                            <button type="submit"  class="button_su_inner" style="--pdt:5px; --pdb:5px;">
+                            <button type="submit" class="button_su_inner" style="--pdt:5px; --pdb:5px;">
                                 <span class="button_text_container">
                                     Kayıt Ol
                                 </span>
