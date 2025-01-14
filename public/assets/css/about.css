@@ -1,0 +1,107 @@
+.about_page .about_bg {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.about_page .photo {
+    display: flex;
+}
+
+.about_page .photo2 {
+    display: flex;
+}
+
+.about_page .card {
+    display: flex;
+    align-items: left;
+    background-color: #555;
+    color: white;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 0 20px 20px 0;
+    width: 100%;
+}
+
+.about_page .card2 {
+    display: flex;
+    align-items: left;
+    background-color: #555;
+    color: white;
+    border: 3px solid black;
+    padding: 20px;
+    border-radius: 20px 0 0 20px;
+    width: 100%;
+}
+
+.about_page .pp {
+    background-color: #555;
+    color: white;
+    border: 3px solid black;
+    border-radius: 20px 0 0 0;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.about_page .pp2 {
+    background-color: #555;
+    color: white;
+    border: 3px solid black;
+    border-radius: 0 20px 0 0;
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5px;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.about_page .name {
+    border: 3px solid black;
+    background-color: #555;
+    padding: 5px 0;
+    width: 150px;
+    margin-right: 5px;
+    border-radius: 0 0 0 20px;
+    text-align: center;
+}
+
+.about_page .name2 {
+    border: 3px solid black;
+    background-color: #555;
+    padding: 5px 0;
+    width: 150px;
+    margin-left: 5px;
+    border-radius: 0 0 20px 0;
+    text-align: center;
+}
+
+.about_page .name3 {
+    border: 3px solid black;
+    background-color: #555;
+    padding: 5px 0;
+    width: 150px;
+    margin-left: 5px;
+    border-radius: 0 0 20px 0;
+    text-align: center;
+    font-size: 14px;
+}
+
+
+.about_page .line {
+    width: 250px; 
+    margin-left: 60px;
+    background-color: white; 
+    color: white;
+    height: 5px; 
+    border: none;
+}
+
+.about_page .subtitle {
+    text-align: center;
+}

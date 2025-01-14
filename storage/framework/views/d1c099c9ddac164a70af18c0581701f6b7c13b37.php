@@ -18,4 +18,6 @@
     </div>
 
 <?php $__env->stopSection(); ?>
+
+
 <?php echo $__env->make("layouts.draft", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\wamp64\www\Filmology_irfan\resources\views/front/movie_detail.blade.php ENDPATH**/ ?>

@@ -1,6 +1,6 @@
 <div class="col-md-12 each_section_design movie_detail_trailer">
 
-    <div class="container each_content movie_bg py-3" style="--mt:14px; --mb:14px; --br_size:3px;">
+    <div class="container each_content movie_bg py-3 px-3" style="--mt:14px; --mb:14px; --br_size:3px;">
 
         <div class="col-md-12">
             <div class="row">
@@ -128,7 +128,305 @@
 
     </div>
 
-    <div class="container each_content movie_bg2 py-3" style="--mt:14px; --mb:14px; --br_size:3px;">
+    <div class="container swiper each_content movie_bg2 py-3"
+        style="--mt:14px; --mb:14px; --br_size:3px; height:525px;">
+        <div class="slider-wrapper">
+            <div class="card-list swiper-wrapper">
+
+                <div class="card-item swiper-slide">
+
+                    <img src="<?php echo e(asset('image/movie_detail_img/Arı_Filmi_afişi.jpg')); ?>" alt="User Image"
+                        class="user-image" />
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 border border-white">
+                                <h5 class="user-name">Sessiz Bir Yer</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-6 col-md-8 border border-white">
+                                <p class="user-name">Aksiyon</p>
+                            </div>
+                            <div class="col-6 col-md-4 d-flex justify-content-md-end border border-white">
+                                <i class="bi bi-star-fill sicon">&nbsp;</i>
+                                <p class="sicontext">7,4</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-12 col-md-4 border border-white">
+                                <div class="row">
+                                    <p class="sicontext2">2025</p>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 d-flex justify-content-md-end border border-white">
+                                <div class="row">
+                                    <span class="bi bi-chat-right-fill cicon"> 0</span>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4 d-flex justify-content-md-end border border-white">
+                                <div class="row">
+                                    <span class="bi bi-eye-fill eicon"> 0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="card-item swiper-slide">
+                    <img src="<?php echo e(asset('image/movie_detail_img/Arı_Filmi_afişi.jpg')); ?>" alt="User Image"
+                        class="user-image" />
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 border border-white">
+                                <h5 class="user-name">Sessiz Bir Yer</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8 border border-white">
+                                <p class="user-name">Aksiyon</p>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <i class="bi bi-star-fill sicon">&nbsp;</i>
+                                <p class="sicontext">7,4</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 border border-white">
+                                <div class="row">
+                                    <p class="sicontext2">2025</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <div class="row">
+                                    <span class="bi bi-chat-right-fill cicon"> 0</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <div class="row">
+                                    <span class="bi bi-eye-fill eicon"> 0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="card-item swiper-slide">
+                    <img src="<?php echo e(asset('image/movie_detail_img/Arı_Filmi_afişi.jpg')); ?>" alt="User Image"
+                        class="user-image" />
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 border border-white">
+                                <h5 class="user-name">Sessiz Bir Yer</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8 border border-white">
+                                <p class="user-name">Aksiyon</p>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <i class="bi bi-star-fill sicon">&nbsp;</i>
+                                <p class="sicontext">7,4</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 border border-white">
+                                <div class="row">
+                                    <p class="sicontext2">2025</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <div class="row">
+                                    <span class="bi bi-chat-right-fill cicon"> 0</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <div class="row">
+                                    <span class="bi bi-eye-fill eicon"> 0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="card-item swiper-slide">
+                    <img src="<?php echo e(asset('image/movie_detail_img/Arı_Filmi_afişi.jpg')); ?>" alt="User Image"
+                        class="user-image" />
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 border border-white">
+                                <h5 class="user-name">Sessiz Bir Yer</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8 border border-white">
+                                <p class="user-name">Aksiyon</p>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <i class="bi bi-star-fill sicon">&nbsp;</i>
+                                <p class="sicontext">7,4</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 border border-white">
+                                <div class="row">
+                                    <p class="sicontext2">2025</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <div class="row">
+                                    <span class="bi bi-chat-right-fill cicon"> 0</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <div class="row">
+                                    <span class="bi bi-eye-fill eicon"> 0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="<?php echo e(asset('image/movie_detail_img/Arı_Filmi_afişi.jpg')); ?>" alt="User Image"
+                        class="user-image" />
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12 border border-white">
+                                <h5 class="user-name">Sessiz Bir Yer</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8 border border-white">
+                                <p class="user-name">Aksiyon</p>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <i class="bi bi-star-fill sicon">&nbsp;</i>
+                                <p class="sicontext">7,4</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-4 col-sm-4 border border-white">
+                                <div class="row">
+                                    <p class="sicontext2">2025</p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <div class="row">
+                                    <span class="bi bi-chat-right-fill cicon"> 0</span>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end border border-white">
+                                <div class="row">
+                                    <span class="bi bi-eye-fill eicon"> 0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card-item swiper-slide">
+                    <img src="<?php echo e(asset('image/movie_detail_img/Arı_Filmi_afişi.jpg')); ?>" alt="User Image"
+                        class="user-image" />
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <h5 class="user-name">Sessiz Bir Yer</h5>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-md-8 col-sm-8">
+                                <p class="user-name">Aksiyon</p>
+                            </div>
+                            <div class="col-md-4 col-sm-4 d-flex justify-content-md-end">
+                                <i class="bi bi-star-fill sicon">&nbsp;</i>
+                                <p class="sicontext">7,4</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-12">
+                        <div class="row">
+                            <div class="col-4 col-md-4 col-sm-4">
+                                <div class="row">
+                                    <p class="sicontext2">2025</p>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-4 col-sm-4 d-flex justify-content-md-end">
+                                <div class="row">
+                                    <span class="bi bi-chat-right-fill cicon"> 0</span>
+                                </div>
+                            </div>
+                            <div class="col-4 col-md-4 col-sm-4 d-flex justify-content-md-end">
+                                <div class="row">
+                                    <span class="bi bi-eye-fill eicon"> 0</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- <div class="card-item swiper-slide">
+              <img src="<?php echo e(asset('image/movie_detail_img/Arı_Filmi_afişi.jpg')); ?>" alt="User Image" class="user-image"/>
+              <h5 class="user-name">Richard Wilson</h5>
+              <p class="user-profession">Product Designer</p>
+              <button class="message-button">Message</button>
+            </div> -->
+
+            </div>
+
+            <div class="swiper-pagination"></div>
+            <div class="swiper-slide-button swiper-button-prev"></div>
+            <div class="swiper-slide-button swiper-button-next"></div>
+        </div>
+    </div>
+
+    <!-- <div class="container each_content movie_bg2 py-3" style="--mt:14px; --mb:14px; --br_size:3px;">
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-12">
@@ -687,9 +985,9 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
-    <div class="container each_content movie_bg3 py-3" style="--mt:14px; --mb:14px; --br_size:3px;">
+    <div class="container each_content movie_bg3 py-3 px-3" style="--mt:14px; --mb:14px; --br_size:3px;">
         <div class="col-md-12">
             <div class="row">
                 <div class="col-md-3 d-flex justify-content-md-start">
@@ -710,6 +1008,186 @@
                 <button class="btncomment" type="submit">Gönder</button>
             </div>
         </div>
-    </div>
 
+        <div class="col-md-12">
+            <div class="row mt-4">
+                <div class="col">
+
+                    <div class="d-flex flex-start">
+                        <img class="rounded-circle shadow-1-strong me-3"
+                            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(10).webp" alt="avatar" width="65"
+                            height="65" />
+                        <div class="flex-grow-1 flex-shrink-1">
+
+                            <div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="mb-1">
+                                        Maria Smantha <span class="small">- 2 hours ago</span>
+                                    </p>
+                                </div>
+                                <p class="small mb-0">
+                                    It is a long established fact that a reader will be distracted by
+                                    the readable content of a page.
+                                </p>
+                                <a class="likeButton" href=""><i class="bi bi-hand-thumbs-up-fill"></i><span
+                                        class="small me-4">
+                                        like</span></a>
+                                <a class="dislikeButton" href=""><i class="bi bi-hand-thumbs-down-fill "></i><span
+                                        class="small me-4">
+                                        dislike</span></a>
+                                <a class="replayButton" href=""><i class="bi bi-reply-fill "></i><span
+                                        class="small me-4">
+                                        reply</span></a>
+                            </div>
+
+                            <div class="d-flex flex-start mt-4">
+                                <a class="me-3" href="#">
+                                    <img class="rounded-circle shadow-1-strong"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(11).webp" alt="avatar"
+                                        width="65" height="65" />
+                                </a>
+                                <div class="flex-grow-1 flex-shrink-1">
+                                    <div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="mb-1">
+                                                Simona Disa <span class="small">- 3 hours ago</span>
+                                            </p>
+                                        </div>
+                                        <p class="small mb-0">
+                                            letters, as opposed to using 'Content here, content here',
+                                            making it look like readable English.
+                                        </p>
+                                        <a class="likeButton" href=""><i class="bi bi-hand-thumbs-up-fill"></i><span
+                                                class="small me-4">
+                                                like</span></a>
+                                        <a class="dislikeButton" href=""><i
+                                                class="bi bi-hand-thumbs-down-fill "></i><span class="small me-4">
+                                                dislike</span></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-start mt-4">
+                                <a class="me-3" href="#">
+                                    <img class="rounded-circle shadow-1-strong"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(32).webp" alt="avatar"
+                                        width="65" height="65" />
+                                </a>
+                                <div class="flex-grow-1 flex-shrink-1">
+                                    <div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="mb-1">
+                                                John Smith <span class="small">- 4 hours ago</span>
+                                            </p>
+                                        </div>
+                                        <p class="small mb-0">
+                                            the majority have suffered alteration in some form, by
+                                            injected humour, or randomised words.
+                                        </p>
+                                        <a class="likeButton" href=""><i class="bi bi-hand-thumbs-up-fill"></i><span
+                                                class="small me-4">
+                                                like</span></a>
+                                        <a class="dislikeButton" href=""><i
+                                                class="bi bi-hand-thumbs-down-fill "></i><span class="small me-4">
+                                                dislike</span></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="d-flex flex-start mt-4">
+                        <img class="rounded-circle shadow-1-strong me-3"
+                            src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(12).webp" alt="avatar" width="65"
+                            height="65" />
+                        <div class="flex-grow-1 flex-shrink-1">
+                            <div>
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <p class="mb-1">
+                                        Natalie Smith <span class="small">- 2 hours ago</span>
+                                    </p>
+                                </div>
+                                <p class="small mb-0">
+                                    The standard chunk of Lorem Ipsum used since the 1500s is
+                                    reproduced below for those interested. Sections 1.10.32 and
+                                    1.10.33.
+                                </p>
+                                <a class="likeButton" href=""><i class="bi bi-hand-thumbs-up-fill"></i><span
+                                        class="small me-4">
+                                        like</span></a>
+                                <a class="dislikeButton" href=""><i class="bi bi-hand-thumbs-down-fill "></i><span
+                                        class="small me-4">
+                                        dislike</span></a>
+                                <a class="replayButton" href=""><i class="bi bi-reply-fill "></i><span
+                                        class="small me-4">
+                                        reply</span></a>
+                            </div>
+
+                            <div class="d-flex flex-start mt-4">
+                                <a class="me-3" href="#">
+                                    <img class="rounded-circle shadow-1-strong"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(31).webp" alt="avatar"
+                                        width="65" height="65" />
+                                </a>
+                                <div class="flex-grow-1 flex-shrink-1">
+                                    <div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="mb-1">
+                                                Lisa Cudrow <span class="small">- 4 hours ago</span>
+                                            </p>
+                                        </div>
+                                        <p class="small mb-0">
+                                            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus
+                                            scelerisque ante sollicitudin commodo. Cras purus odio,
+                                            vestibulum in vulputate at, tempus viverra turpis.
+                                        </p>
+                                        <a class="likeButton" href=""><i class="bi bi-hand-thumbs-up-fill"></i><span
+                                                class="small me-4">
+                                                like</span></a>
+                                        <a class="dislikeButton" href=""><i
+                                                class="bi bi-hand-thumbs-down-fill "></i><span class="small me-4">
+                                                dislike</span></a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="d-flex flex-start mt-4">
+                                <a class="me-3" href="#">
+                                    <img class="rounded-circle shadow-1-strong"
+                                        src="https://mdbcdn.b-cdn.net/img/Photos/Avatars/img%20(29).webp" alt="avatar"
+                                        width="65" height="65" />
+                                </a>
+                                <div class="flex-grow-1 flex-shrink-1">
+                                    <div>
+                                        <div class="d-flex justify-content-between align-items-center">
+                                            <p class="mb-1">
+                                                Maggie McLoan <span class="small">- 5 hours ago</span>
+                                            </p>
+                                        </div>
+                                        <p class="small mb-0">
+                                            a Latin professor at Hampden-Sydney College in Virginia,
+                                            looked up one of the more obscure Latin words, consectetur
+                                        </p>
+                                        <a class="likeButton" href=""><i class="bi bi-hand-thumbs-up-fill"></i><span
+                                        class="small me-4">
+                                        like</span></a>
+                                        <a class="dislikeButton" href=""><i class="bi bi-hand-thumbs-down-fill "></i><span
+                                        class="small me-4">
+                                        dislike</span></a>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
 </div><?php /**PATH C:\wamp64\www\Filmology_irfan\resources\views/layouts/sections/movie_detail_trailer.blade.php ENDPATH**/ ?>
