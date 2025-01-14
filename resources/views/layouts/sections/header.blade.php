@@ -71,12 +71,18 @@
                             <div class="col-md-1 profile_icon_container text-center">
                                 <ul class="list-inline mb-0">
 
-                                    <li class="list-inline-item">
+                                @if (Auth::check())
+                                <form action="{{ route('logout') }}" method="POST">
+                                    @csrf
+                                <button type="submit" class="btn btn-link">Çıkış Yap</button>
+                                </form>
+                            @else
+                            <li class="list-inline-item">
                                         <a href="{{ route('login_register_href') }}">
                                             <i class="bi bi-person-fill p-0 m-0"></i>
                                         </a>
-                                    </li>
-                                    
+                                        </li>
+                            @endif                    
                                 </ul>
                             </div>
 
