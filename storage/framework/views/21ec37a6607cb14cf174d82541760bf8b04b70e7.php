@@ -4,7 +4,7 @@
 
 
         
-    <div class="card each_content" style="max-width: 540px; --mt:14px; --mb:14px; --br_size:2px;">
+    <div class="card each_content three_cards" style="max-width: 540px; --mt:14px; --mb:14px; --br_size:2px;">
         <div class="row">
 
             <div class="col-md-4 cover_photo">
@@ -43,7 +43,7 @@
     </div>
 
         
-    <div class="card each_content" style="max-width: 540px; --mt:14px; --mb:14px; --br_size:2px;">
+    <div class="card each_content three_cards" style="max-width: 540px; --mt:14px; --mb:14px; --br_size:2px;">
         <div class="row">
 
             <div class="col-md-4 cover_photo">
@@ -82,7 +82,7 @@
     </div>
 
         
-    <div class="card each_content" style="max-width: 540px; --mt:14px; --mb:14px; --br_size:2px;">
+    <div class="card each_content three_cards" style="max-width: 540px; --mt:14px; --mb:14px; --br_size:2px;">
         <div class="row">
 
             <div class="col-md-4 cover_photo">

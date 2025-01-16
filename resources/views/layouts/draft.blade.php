@@ -64,6 +64,10 @@
 
                         @yield('content_4')
 
+                        @yield('content_5')
+
+                        @yield('content_6')
+
 
                     </div>
 

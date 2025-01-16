@@ -1,6 +1,6 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Document</title>
+<title>Filmology</title>
 <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
 
@@ -16,7 +16,6 @@
 
 
 
-    <link rel="stylesheet" href="<?php echo e(asset('assets/jquery-text-marquee-master/dist/jquery.text-marquee.min.css')); ?>">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
 
 
@@ -27,7 +26,6 @@
 
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/header.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/navbar.css')); ?>">
-    <link rel="stylesheet" href="<?php echo e(asset('assets/css/home_trailer.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/footer.css')); ?>">
 
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/login.css')); ?>">
@@ -38,8 +36,20 @@
 
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/contact.css')); ?>">
 
-    <link rel="stylesheet" href="<?php echo e(asset('assets/css/movie_table.css')); ?>">
+
+
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/home_trailer.css')); ?>">
+
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/pagination.css')); ?>">
 
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/slider_table.css')); ?>">
     
-    <link rel="stylesheet" href="<?php echo e(asset('assets/css/new_movies.css')); ?>"><?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/head_and_js/head.blade.php ENDPATH**/ ?>
+
+    
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/new_movies.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/movie_details.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/movie_card_info_field.css')); ?>">
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/movie_card_and_summary.css')); ?>">
+
+
+    <?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/head_and_js/head.blade.php ENDPATH**/ ?>

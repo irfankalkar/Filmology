@@ -1,0 +1,54 @@
+.movie_card_info_field{
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    color: white;
+
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    border-left: none;
+    border-bottom: none;
+    border-right: none;
+
+    background-color: black;
+}
+
+.movie_card_info_field .movie_name_field {
+    font-size: 14px;
+}
+
+.movie_card_info_field .movie_name_field:hover {
+    color: rgb(112, 181, 223);
+}
+
+.movie_card_info_field .category_field, .movie_card_info_field .comment_field, .movie_card_info_field .view_field{
+    font-size: 12px;
+}
+
+.movie_card_info_field .rating_field i{
+    color: orange;
+    font-size: 14px;
+}
+
+.movie_card_info_field .rating_field span{
+    color: orange;
+    font-size: 13px;
+}
+
+.movie_card_info_field .comment_field i,
+.movie_card_info_field .view_field i{
+    font-size: 14px;
+}
+
+.movie_card_info_field .comment_field span,
+.movie_card_info_field .view_field span,
+.movie_card_info_field .category_field span,
+.movie_card_info_field .year_field span{
+    font-size: 13px;
+}
+
+.movie_card_info_field .category_field,
+.movie_card_info_field .year_field,
+.movie_card_info_field .comment_field,
+.movie_card_info_field .view_field{
+    color: rgba(255, 255, 255, 0.7);;
+}

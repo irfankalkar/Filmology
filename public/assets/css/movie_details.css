@@ -1,0 +1,381 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+/* MOVİE TRAİLER */
+
+.movie_details .movie_bg {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+/* .movie_details .bookMark{
+    position: absolute;
+    top: 265px;
+    left: 360px;
+    font-size: 26px;
+    color: white;
+} */
+
+.movie_details .border1 {
+    border-left: 3px solid white;
+    height: 45px;
+}
+
+.movie_details .border2 {
+    border-left: 3px solid white;
+    height: 45px;
+}
+
+.movie_details .staricon {
+    color: orange;
+    font-size: 26px;
+    position: absolute;
+    right: 370px;
+    cursor: pointer;
+}
+
+.movie_details .staricon:hover {
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    cursor: pointer;
+}
+
+.movie_details .staricon2 {
+    color: orange;
+    font-size: 26px;
+    position: absolute;
+    right: 240px;
+}
+
+.movie_details .staricontext {
+    position: absolute;
+    font-size: 20px;
+    top: 305px;
+    right: 175px;
+}
+
+.movie_details .video-container {
+    position: relative;
+}
+
+.movie_details .video-container video {
+    width: 97%;
+    height: 96%;
+    position: absolute;
+    object-fit: cover;
+    z-index: 0;
+}
+
+.movie_details .video-container .icon {
+    z-index: 1;
+    font-size: 100px;
+    position: absolute;
+    left: 400px;
+    top: 30%;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+
+    transition: font-size 1s;
+}
+
+.movie_details .video-container .icon:hover {
+    z-index: 1;
+    font-size: 110px;
+    position: absolute;
+    left: 400px;
+    top: 30%;
+    color: blueviolet;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.movie_details .imgTrailer {
+    width: 290px;
+    height: 400px;
+}
+
+.movie_details .border_bottom {
+    border-bottom: 3px solid black;
+}
+
+
+
+/* MOVİE SLİDER */
+
+
+
+.movie_details * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.movie_details .movie_bg2 {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+/* .movie_details body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: url("images/bg.jpg") #030728 no-repeat center;
+} */
+
+.movie_details .slider-wrapper {
+  overflow: hidden;
+  max-width: 1200px;
+  margin: 0 70px 55px;
+}
+
+.movie_details .card-list .card-item {
+  height: 450px;
+  color: #fff;
+  user-select: none;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  backdrop-filter: blur(30px);
+  background: rgba(255, 255, 255, 0.2);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+.movie_details .card-list .card-item .user-name {
+    text-align: left;
+}
+
+.movie_details .card-list .card-item .user-image {
+  width: 200px;
+  height: 300px;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  border: 3px solid #fff;
+  padding: 4px;
+}
+
+.movie_details .card-list .card-item .user-profession {
+  font-size: 1.15rem;
+  color: #e3e3e3;
+  font-weight: 500;
+  margin: 0 0 40px;
+}
+
+.movie_details .card-list .card-item .message-button {
+  font-size: 1.25rem;
+  padding: 10px 35px;
+  color: #030728;
+  border-radius: 6px;
+  font-weight: 500;
+  cursor: pointer;
+  background: #fff;
+  border: 1px solid transparent;
+  transition: 0.2s ease;
+}
+
+/* .movie_details .card-list .card-item .message-button:hover {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #fff;
+  color: #fff;
+} */
+
+.movie_details .slider-wrapper .swiper-pagination-bullet {
+  background: #fff;
+  height: 13px;
+  width: 13px;
+  opacity: 0.5;
+}
+
+.movie_details .slider-wrapper .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+.movie_details .slider-wrapper .swiper-slide-button {
+  color: #fff;
+  margin-top: -55px;
+  transition: 0.2s ease;
+}
+
+.movie_details .slider-wrapper .swiper-slide-button:hover {
+  color: #4658ff;
+}
+
+@media (max-width: 768px) {
+    .movie_details .slider-wrapper {
+    margin: 0 10px 40px;
+  }
+
+  .movie_details .slider-wrapper .swiper-slide-button {
+    display: none;
+  }
+}
+
+
+/*ESKİ SLİDER KODLARI*/
+
+
+/* .movie_details .movie_bg2 {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.movie_details .lefticon {
+    opacity: 0.3;
+    width: 70px;
+}
+
+.movie_details .lefticon:hover {
+    opacity: 0.5;
+    color: white
+}
+
+.movie_details .lefticon:focus {
+    opacity: 0.5;
+    color: white
+}
+
+.movie_details .righticon {
+    opacity: 0.3;
+    width: 70px;
+}
+
+.movie_details .righticon:hover {
+    opacity: 0.5;
+    color: white
+}
+
+.movie_details .righticon:focus {
+    opacity: 0.5;
+    color: white
+}
+
+.movie_details .icon1 {
+    color: blueviolet;
+}
+
+.movie_details .generally {
+    color: white;
+}
+
+.movie_details .imgCard {
+    background-color: black;
+    border: 3px solid white;
+    color: white;
+}
+
+.movie_details .imgBee {
+    width: 175px;
+    margin-left: 48px;
+    margin-top: 5px;
+}
+
+.movie_details .sicon {
+    color: orange;
+    position: absolute;
+    bottom: 8px;
+    font-size: 20px;
+}
+
+.movie_details .cicon {
+    position: absolute;
+    top: 275px;
+    right: 15px;
+    color: white;
+    font-size: 16px;
+}
+
+.movie_details .eicon {
+    position: absolute;
+    top: 307px;
+    right: 15px;
+    color: white;
+    font-size: 16px;
+}
+
+.movie_details .sicontext {
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 333px;
+}
+
+.movie_details .sicontext2 {
+    color: white;
+    font-size: 17px;
+    position: absolute;
+    top: 333px;
+    right: 15px;
+}
+
+.movie_details ul {
+    list-style: none;
+    display: flex;
+}
+
+.movie_details li {
+    flex-direction: column;
+    margin-right: 30px;
+} */
+
+
+
+/* MOVİE COMMENT */
+
+.movie_details a{
+    text-decoration: none;
+    color: white;
+}
+
+.movie_details .likeButton:hover{
+    color: blue;
+}
+
+.movie_details .dislikeButton:hover{
+    color: red;
+}
+
+.movie_details .replayButton:hover{
+    color: yellow;
+}
+
+
+.movie_details .movie_bg3 {
+    background-color: rgb(41, 41, 41);
+    color: white;
+}
+
+.movie_details .commenticon {
+    position: absolute;
+    top: 1670px;
+    left: 350px;
+    font-size: 26px;
+    color: white;
+}
+
+.movie_details .btncomment {
+    background-color: #c9c8c8;
+    color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.movie_details .btncomment:hover {
+    background-color: white;
+    color: black;
+    border: 3px solid white;
+    border-radius: 10px;
+    width: 100px;
+    font-weight: bold;
+}
+
+.movie_details .commentarea {
+    background-color: #c9c8c8;
+    border: 3px solid white;
+}

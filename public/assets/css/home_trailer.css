@@ -42,6 +42,7 @@
 .other_trailers .card-title .title_text {
     overflow: hidden; /* Taşan metni gizler */
     white-space: nowrap;
+    /* transform: translateX(0); */
 }
 
 .other_trailers .rating {

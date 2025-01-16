@@ -64,6 +64,10 @@
 
                         <?php echo $__env->yieldContent('content_4'); ?>
 
+                        <?php echo $__env->yieldContent('content_5'); ?>
+
+                        <?php echo $__env->yieldContent('content_6'); ?>
+
 
                     </div>
 

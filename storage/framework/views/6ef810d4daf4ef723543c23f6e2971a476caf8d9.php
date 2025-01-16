@@ -11,9 +11,16 @@
 
 <script src="<?php echo e(asset('assets/js/header.js')); ?>"></script>
 <script src="<?php echo e(asset('assets/js/navbar.js')); ?>"></script>
+<script src="<?php echo e(asset('assets/js/contact.js')); ?>"></script>
+
 <script src="<?php echo e(asset('assets/js/trailer_section.js')); ?>"></script>
 <script src="<?php echo e(asset('assets/js/colorful_borders.js')); ?>"></script>
 <script src="<?php echo e(asset('assets/js/login_register_button.js')); ?>"></script>
-<script src="<?php echo e(asset('assets/js/contact.js')); ?>"></script>
 
-<script src="<?php echo e(asset('assets/js/new_movies.js')); ?>"></script><?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/head_and_js/js.blade.php ENDPATH**/ ?>
+<script src="<?php echo e(asset('assets/js/new_movies.js')); ?>"></script>
+
+<script src="<?php echo e(asset('assets/js/movie_details.js')); ?>"></script>
+
+<script src="<?php echo e(asset('assets/js/slider_table.js')); ?>"></script>
+
+<script src="<?php echo e(asset('assets/js/movie_card_and_summary.js')); ?>"></script><?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/head_and_js/js.blade.php ENDPATH**/ ?>
