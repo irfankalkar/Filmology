@@ -6189,3 +6189,210 @@
 #55 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
 #56 {main}
 "} 
+[2025-01-17 18:23:53] local.ERROR: Target class [Fruitcake\Cors\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Fruitcake\\Cors\\HandleCors] does not exist. at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:946)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(198): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#9 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 C:\\wamp64\\www\\Filmology\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#12 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Fruitcake\\Cors\\HandleCors\" does not exist at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:944)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(944): ReflectionClass->__construct('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(198): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#6 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\wamp64\\www\\Filmology\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#13 {main}
+"} 
+[2025-01-17 18:23:59] local.ERROR: Target class [Fruitcake\Cors\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Fruitcake\\Cors\\HandleCors] does not exist. at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:946)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(198): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#9 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 C:\\wamp64\\www\\Filmology\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#12 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Fruitcake\\Cors\\HandleCors\" does not exist at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:944)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(944): ReflectionClass->__construct('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(198): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#6 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\wamp64\\www\\Filmology\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#13 {main}
+"} 
+[2025-01-17 18:23:59] local.ERROR: Target class [Fruitcake\Cors\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Fruitcake\\Cors\\HandleCors] does not exist. at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:946)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(258): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(216): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 C:\\wamp64\\www\\Filmology\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Fruitcake\\Cors\\HandleCors\" does not exist at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:944)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(944): ReflectionClass->__construct('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(258): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#6 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(216): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 C:\\wamp64\\www\\Filmology\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#9 {main}
+"} 
+[2025-01-17 18:25:08] local.ERROR: Target class [Fruitcake\Cors\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Fruitcake\\Cors\\HandleCors] does not exist. at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:946)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(198): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#9 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 C:\\wamp64\\www\\Filmology\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#12 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Fruitcake\\Cors\\HandleCors\" does not exist at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:944)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(944): ReflectionClass->__construct('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(198): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#6 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\wamp64\\www\\Filmology\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#13 {main}
+"} 
+[2025-01-17 18:25:09] local.ERROR: Target class [Fruitcake\Cors\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Fruitcake\\Cors\\HandleCors] does not exist. at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:946)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(258): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(216): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 C:\\wamp64\\www\\Filmology\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Fruitcake\\Cors\\HandleCors\" does not exist at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:944)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(944): ReflectionClass->__construct('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(258): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#6 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(216): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 C:\\wamp64\\www\\Filmology\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#9 {main}
+"} 
+[2025-01-17 18:25:15] local.ERROR: Target class [Fruitcake\Cors\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Fruitcake\\Cors\\HandleCors] does not exist. at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:946)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(198): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#6 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#9 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#10 C:\\wamp64\\www\\Filmology\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#11 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#12 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Fruitcake\\Cors\\HandleCors\" does not exist at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:944)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(944): ReflectionClass->__construct('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(198): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#6 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Http\\Middleware\\TrustProxies.php(58): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#7 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(209): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#8 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(127): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#9 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#10 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(145): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#11 C:\\wamp64\\www\\Filmology\\public\\index.php(51): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#12 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#13 {main}
+"} 
+[2025-01-17 18:25:16] local.ERROR: Target class [Fruitcake\Cors\HandleCors] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [Fruitcake\\Cors\\HandleCors] does not exist. at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:946)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(258): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(216): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#6 C:\\wamp64\\www\\Filmology\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#8 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"Fruitcake\\Cors\\HandleCors\" does not exist at C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:944)
+[stacktrace]
+#0 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(944): ReflectionClass->__construct('Fruitcake\\\\Cors\\\\...')
+#1 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(819): Illuminate\\Container\\Container->build('Fruitcake\\\\Cors\\\\...')
+#2 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1051): Illuminate\\Container\\Container->resolve('Fruitcake\\\\Cors\\\\...', Array, true)
+#3 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(755): Illuminate\\Foundation\\Application->resolve('Fruitcake\\\\Cors\\\\...', Array)
+#4 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(1033): Illuminate\\Container\\Container->make('Fruitcake\\\\Cors\\\\...', Array)
+#5 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(258): Illuminate\\Foundation\\Application->make('Fruitcake\\\\Cors\\\\...')
+#6 C:\\wamp64\\www\\Filmology\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(216): Illuminate\\Foundation\\Http\\Kernel->terminateMiddleware(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#7 C:\\wamp64\\www\\Filmology\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->terminate(Object(Illuminate\\Http\\Request), Object(Illuminate\\Http\\Response))
+#8 C:\\wamp64\\www\\Filmology\\server.php(21): require_once('C:\\\\wamp64\\\\www\\\\F...')
+#9 {main}
+"} 

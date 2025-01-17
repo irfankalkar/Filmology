@@ -9,7 +9,7 @@
 
 @for ($i = 0; $i < 24; $i++)
 
-    <div class="col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 py-3 movie_each_card">
+    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 py-3 movie_each_card">
 
         <div class="row">
 
