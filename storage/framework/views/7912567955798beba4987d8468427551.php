@@ -1,6 +1,6 @@
-<div class="col-md-12 each_section_design slider_table slider_table_four">
+<div class="col-md-12 each_section_design_white_border slider_table slider_table_four">
 
-    <div class="container swiper each_content bg-dark py-4" style="--mt:14px; --mb:14px; --br_size:2px;">
+    <div class="container swiper each_content bg-dark py-4" style="--mt:0px; --mb:0px; --br_size:0px;">
 
             <div class="slider-wrapper">
 
@@ -102,4 +102,4 @@
 
 
 
-<?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/sections/cards_and_slider/content_slider_table_four.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/sections/cards_and_slider/slider_you_might_like.blade.php ENDPATH**/ ?>

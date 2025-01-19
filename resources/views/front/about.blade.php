@@ -89,7 +89,7 @@
         <div class="row p-2">
 
 
-                @include("layouts.sections.cards_and_slider.slider_lists.content_slider_new_movies")
+                @include("layouts.sections.cards_and_slider.slider_lists.slider_new_movies")
 
 
         </div>

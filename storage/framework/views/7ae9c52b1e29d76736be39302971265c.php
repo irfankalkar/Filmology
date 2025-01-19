@@ -51,5 +51,7 @@
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/movie_card_info_field.css')); ?>">
     <link rel="stylesheet" href="<?php echo e(asset('assets/css/movie_card_and_summary.css')); ?>">
 
+    <link rel="stylesheet" href="<?php echo e(asset('assets/css/comments.css')); ?>">
+
 
     <?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/head_and_js/head.blade.php ENDPATH**/ ?>

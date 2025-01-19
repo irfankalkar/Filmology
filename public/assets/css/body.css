@@ -57,12 +57,21 @@ body .background_image {
     border: solid 3px rgb(44, 114, 144);
 }
 
+
+
 .each_section .each_section_design{
     border: solid 2px rgb(7, 175, 247);
     border-radius: 8px;
 
     background-color: rgb(2, 114, 162);
 }
+
+.each_section .each_section_design_white_border{
+    border: solid 2px rgb(255, 255, 255);
+    border-radius: 8px;
+}
+
+
 
 .each_section .each_content{
     margin-top: var(--mt);
@@ -157,7 +166,7 @@ body .background_image {
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Yazı gölgesi eklendi */
     }
 
-    .half_background_first_blue, .half_background_second_blue {
+    .half_background_first_blue, .half_background_second_blue, .half_background_brown {
         position: relative;
         z-index: 1;
     }
@@ -168,9 +177,9 @@ body .background_image {
         bottom: 0;
         left: 0;
         width: 100%;
-        height: 50%; /* Dikeyde yarısını kaplar */
+        height: 50%;
         background: rgb(112, 181, 223);
-        z-index: -1;  /* Yazının arkasında kalır */
+        z-index: -1;
     }
 
     .half_background_second_blue::before {
@@ -179,9 +188,9 @@ body .background_image {
         bottom: 0;
         left: 0;
         width: 100%;
-        height: 50%; /* Dikeyde yarısını kaplar */
+        height: 50%;
         background: rgb(7, 175, 247);
-        z-index: -1;  /* Yazının arkasında kalır */
+        z-index: -1;
 
         border: solid 1px rgb(0, 0, 0);
         border-top: 0;
@@ -189,4 +198,38 @@ body .background_image {
         border-right: 0;
     }
 
+
+    .half_background_brown::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: rgb(242, 133, 0);
+        z-index: -1;
+    }
+
 /* ÖZELLEŞTİRİLMİŞ TITLE */
+
+
+
+
+
+
+
+/* ÖZELLEŞTİRİLMİŞ TEXTAREA */
+
+    #textarea_auto_resize {
+        width: 100%;
+        min-height: 100px; /* Minimum yükseklik */
+        /* max-height: 300px; */
+        resize: none; /* Kullanıcı tarafından manuel boyutlandırmayı devre dışı bırakır */
+        overflow-y: hidden; /* Kaydırma çubuğunu gizler */
+        /* padding: 10px; */
+        box-sizing: border-box;
+        font-size: 16px;
+        line-height: 1.5; /* Satır aralığı */
+    }
+
+/* ÖZELLEŞTİRİLMİŞ TEXTAREA */

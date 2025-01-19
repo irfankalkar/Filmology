@@ -23,4 +23,7 @@
 
 <script src="<?php echo e(asset('assets/js/slider_table.js')); ?>"></script>
 
-<script src="<?php echo e(asset('assets/js/movie_card_and_summary.js')); ?>"></script><?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/head_and_js/js.blade.php ENDPATH**/ ?>
+<script src="<?php echo e(asset('assets/js/movie_card_and_summary.js')); ?>"></script>
+<script src="<?php echo e(asset('assets/js/textarea.js')); ?>"></script>
+
+<script src="<?php echo e(asset('assets/js/comments.js')); ?>"></script><?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/head_and_js/js.blade.php ENDPATH**/ ?>

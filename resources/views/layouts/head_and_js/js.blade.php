@@ -24,3 +24,6 @@
 <script src="{{ asset('assets/js/slider_table.js') }}"></script>
 
 <script src="{{ asset('assets/js/movie_card_and_summary.js') }}"></script>
+<script src="{{ asset('assets/js/textarea.js') }}"></script>
+
+<script src="{{ asset('assets/js/comments.js') }}"></script>

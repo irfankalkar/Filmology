@@ -89,7 +89,7 @@
                     <div class="row rounded-2 border_white h-100 pt-4 pb-2 cover_and_trailer_field">
 
                         <div class="col-md-3 d-flex justify-content-md-start">
-                            <img class="rounded-2 w-100" src="{{asset('assets/image/movie_covers/1.jpg')}}"
+                            <img class="rounded-2 w-100" src="<?php echo e(asset('assets/image/movie_covers/1.jpg')); ?>"
                                 alt="">
                         </div>
 
@@ -209,3 +209,4 @@
 
 </div>
 
+<?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/sections/movie_details.blade.php ENDPATH**/ ?>

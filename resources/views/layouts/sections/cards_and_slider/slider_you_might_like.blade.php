@@ -1,26 +1,26 @@
-<div class="col-md-12 each_section_design slider_table slider_table_three">
+<div class="col-md-12 each_section_design_white_border slider_table slider_table_four">
 
-    <div class="container swiper each_content bg-dark py-4" style="--mt:14px; --mb:14px; --br_size:2px;">
+    <div class="container swiper each_content bg-dark py-4" style="--mt:0px; --mb:0px; --br_size:0px;">
 
             <div class="slider-wrapper">
 
 
                 <h4 class="special_title mb-4">
                     <span class="half_background_second_blue fs-5 fs-sm-4">
-                        &nbsp;Yeni Çıkanlar&nbsp;
+                        &nbsp;Bunları da beğenebilirsiniz&nbsp;
                     </span>
                 </h4>
                 
                 
                 <div class="card-list swiper-wrapper">
                 
-                    <?php for($i = 0; $i < 6; $i++): ?>
+                    @for ($i = 0; $i < 6; $i++)
                 
                         <div class="card-item swiper-slide movie_each_card" style="border: solid 2px rgb(112, 181, 223); border-radius: 5px;">
                 
                             <div class="col-md-12 image_field">
                 
-                                <img src="<?php echo e(asset('assets/image/movie_covers/1.jpg')); ?>" alt="User Image"/>
+                                <img src="{{asset('assets/image/movie_covers/1.jpg')}}" alt="User Image"/>
                 
                                 <div class="overlay px-3 pt-3 movie_summary">
                 
@@ -82,7 +82,7 @@
                 
                         </div>
                 
-                    <?php endfor; ?>
+                    @endfor
                 
                 </div>
                 
@@ -102,4 +102,3 @@
 
 
 
-<?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/sections/cards_and_slider/slider_lists/content_slider_new_movies.blade.php ENDPATH**/ ?>

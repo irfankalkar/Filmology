@@ -89,7 +89,7 @@
         <div class="row p-2">
 
 
-                <?php echo $__env->make("layouts.sections.cards_and_slider.slider_lists.content_slider_new_movies", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                <?php echo $__env->make("layouts.sections.cards_and_slider.slider_lists.slider_new_movies", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
 
 
         </div>

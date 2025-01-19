@@ -102,49 +102,6 @@
 @endsection
 
 
-{{-- ----------------------------------------------------------------------------- --}}
-{{-- ALL MOVIES --}}
-{{-- ----------------------------------------------------------------------------- --}}
-
-@section('content_5')
-
-    <div class="col-md-12 each_section">
-        <div class="row p-2">
-
-
-                @include("layouts.sections.cards_and_slider.content_slider_table_four")
-
-
-        </div>
-    </div>
-
-@endsection
-
-
-
-
-
-
-{{-- ----------------------------------------------------------------------------- --}}
-{{-- ALL MOVIES --}}
-{{-- ----------------------------------------------------------------------------- --}}
-
-{{-- @section('content_6')
-
-
-    <div class="col-md-12 each_section">
-        <div class="row p-2">
-
-
-                @include("layouts.draft_slider_table_XXX")
-
-
-        </div>
-    </div>
-
-@endsection --}}
-
-
 
 
 

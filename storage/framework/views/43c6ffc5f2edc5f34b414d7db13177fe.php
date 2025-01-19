@@ -1,4 +1,4 @@
-<div class="col-md-12 each_section_design slider_table slider_table_four">
+<div class="col-md-12 each_section_design slider_table slider_table_three">
 
     <div class="container swiper each_content bg-dark py-4" style="--mt:14px; --mb:14px; --br_size:2px;">
 
@@ -7,7 +7,7 @@
 
                 <h4 class="special_title mb-4">
                     <span class="half_background_second_blue fs-5 fs-sm-4">
-                        &nbsp;Bunları da beğenebilirsiniz&nbsp;
+                        &nbsp;Yeni Çıkanlar&nbsp;
                     </span>
                 </h4>
                 
@@ -102,4 +102,4 @@
 
 
 
-<?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/sections/cards_and_slider/content_slider_table_four.blade.php ENDPATH**/ ?>
+<?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/sections/cards_and_slider/slider_lists/slider_new_movies.blade.php ENDPATH**/ ?>
