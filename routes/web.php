@@ -22,6 +22,7 @@ use App\Http\Controllers\Movie_Details;
 
 Route::get("/",[Home_Controller::class, "home_page"]) -> name('home_href');
 Route::get("/about",[Home_Controller::class, "about_page"]) -> name('about_href');
+Route::get("/lists",[Home_Controller::class, "lists_page"]) -> name('lists_href');
 Route::get("/contact",[Home_Controller::class, "contact_page"]) -> name('contact_href');
 
 Route::get("/login_register",[Login_Register_Controller::class, "login_register_page"]) -> name('login_register_href');

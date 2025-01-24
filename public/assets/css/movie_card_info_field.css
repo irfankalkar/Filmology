@@ -4,20 +4,37 @@
 
     color: white;
 
-    border: 1px solid rgba(255, 255, 255, 0.5);
-    border-left: none;
-    border-bottom: none;
-    border-right: none;
+    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5713935232296043) 20%, rgba(0,0,0,0.8823178929775035) 40%, rgba(0,0,0,1) 60%, rgba(0,0,0,1) 80%, rgba(0,0,0,1) 100%);
 
-    background-color: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    box-sizing: border-box;
+    z-index: 2;
+
+    width: 100%;
 }
 
 .movie_card_info_field .movie_name_field {
-    font-size: 14px;
+    max-width: 100%;
+    width: 100%;
+    overflow: hidden;
 }
 
 .movie_card_info_field .movie_name_field:hover {
     color: rgb(112, 181, 223);
+}
+
+.movie_card_info_field .movie_name_field span {
+    font-size: 14px;
+
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+
+    max-width: 100%;
+    width: 100%;
 }
 
 .movie_card_info_field .category_field, .movie_card_info_field .comment_field, .movie_card_info_field .view_field{
@@ -47,8 +64,15 @@
 }
 
 .movie_card_info_field .category_field,
+.movie_card_info_field .category_field a,
 .movie_card_info_field .year_field,
+.movie_card_info_field .year_field a,
 .movie_card_info_field .comment_field,
 .movie_card_info_field .view_field{
-    color: rgba(255, 255, 255, 0.7);;
+    color: rgba(255, 255, 255, 0.7);
+    text-decoration: none;
+}
+
+.movie_card_info_field .category_field a:hover, .movie_card_info_field .year_field a:hover {
+    color: white;
 }

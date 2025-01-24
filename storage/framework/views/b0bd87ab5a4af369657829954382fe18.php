@@ -3,7 +3,7 @@
         <div class="col-md-12 each_section_design contact_form_field">
 
             
-        <div class="each_content" style="--mt:14px; --mb:14px; --br_size:3px;">
+        <div class="each_content mt-3 mb-3" style="--br_size:3px;">
     
                 
             <div class="row px-3 pb-3">
@@ -61,7 +61,7 @@
                                         <span class="input-group-text message_box"> <i class="bi bi-envelope-fill"></i> </span>
                                     </div>
                                     
-                                    <div class="col-md-6">
+                                    <div class="col-md-6 mb-2">
                                         <button type="submit" class="btn btn-sm w-100 fw-bolder">Gönder</button>
                                     </div>
 

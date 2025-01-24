@@ -52,6 +52,25 @@
     font-size: 13px;
 }
 
+@media (min-width: 1400px)
+{
+    .movie_details .score_it_btn i, .movie_details .save_it_btn i
+    {
+        font-size: 25px;
+    }
+}
+
+
+@media (min-width: 1200px)
+{
+    .movie_details .score_it_btn i, .movie_details .save_it_btn i
+    {
+        font-size: 20px;
+    }
+}
+
+
+
 
 .movie_details .cover_and_trailer_field{
     background-color: black;
@@ -63,5 +82,6 @@
 }
 
 
-
-
+.movie_details .director_field span, .movie_details .screen_writer_field span, .movie_details .actor_actress_field span {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}

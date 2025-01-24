@@ -1,7 +1,13 @@
 
+.comment_field .info_who_can_comment a {
+    text-decoration: none;
+    color: white
+}
 
-
-
+.comment_field .info_who_can_comment a:hover {
+    background-color: white;
+    color: black;
+}
 
 .comment_field textarea{
     border: none;
@@ -91,7 +97,7 @@
 .comment_field button{
     background-color: rgb(228, 162, 82);
     border: solid 2px white;
-    color: rgb(228, 228, 228);;
+    color: black;
 }
 
 .comment_field button:hover {
@@ -101,5 +107,5 @@
     background-color: rgb(144, 122, 60);
     border: solid 2px white;
     
-    color: black;
+    color: rgb(228, 228, 228);
 }

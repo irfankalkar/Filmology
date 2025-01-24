@@ -9,7 +9,7 @@
 
 <?php for($i = 0; $i < 24; $i++): ?>
 
-    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 py-3 movie_each_card">
+    <div class="col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 px-2 py-2 px-md-2 py-md-2 movie_each_card" title="Bir Garip Yazılımcının Hayat Hikayesi">
 
         <div class="row">
 
@@ -19,7 +19,7 @@
 
                     <div class="col-md-12 image_field">
 
-                        <img src="<?php echo e(asset('assets/image/movie_covers/1.jpg')); ?>" class="" alt="...">
+                        <img src="<?php echo e(asset('assets/image/movie_covers/4.jpg')); ?>" class="" alt="...">
 
                         <div class="overlay px-3 pt-3 movie_summary">
 
@@ -31,51 +31,55 @@
 
                         </div>
 
-                    </div>
 
-                    <div class="row d-flex flex-wrap justify-content-between movie_card_info_field mx-0 p-1">
 
-                        <div class="col-12 order-0 order-xl-0 px-1 movie_name_field">
-                            <a href="https:www.google.com" style="text-decoration: none; color: inherit;">
-                                <span class="fw-bold">Bir Garip Yazılımcının Hayat Hikayesi</span>
-                            </a>
+                        <div class="row d-flex flex-wrap justify-content-between movie_card_info_field mx-0 p-1">
+
+                            <div class="col-12 order-0 order-xl-0 px-1 movie_name_field">
+                                <a href="https:www.google.com" style="text-decoration: none; color: inherit;">
+                                    <span class="fw-bold pt-3">Bir Garip Yazılımcının Hayat Hikayesi</span>
+                                </a>
+                            </div>
+                
+                            <div class="col-xxl-8 col-xl-7 order-1 order-xl-1 px-1 category_field d-flex align-items-center">
+                                <a href=""> <span class="card-text"> Aksiyon </span> </a>
+                            </div>
+                
+                            <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 order-xl-2 order-3 px-1 rating_field">
+                                <ul class="list-inline mb-0 d-flex justify-content-end">
+                                    <li class="list-inline-item w-75 d-flex justify-content-between justify-content-sm-end align-items-center">
+                                        <i class="bi bi-star-fill me-sm-1 "></i>
+                                        <span class="">7,4</span>
+                                    </li>
+                                </ul>
+                            </div>
+                
+                            <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7 col-sm-7 col-7 order-xl-3 order-2 px-1 year_field d-flex align-items-center">
+                                <a href=""> <span class="year">2025</span> </a>
+                            </div>
+                
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4 order-4 order-xl-4 px-1 comment_field">
+                                <ul class="list-inline mb-0 d-flex justify-content-xl-end justify-content-lg-start">
+                                    <li class="list-inline-item w-75 d-flex justify-content-between justify-content-sm-start align-items-center">
+                                        <i class="bi bi-chat-right-fill me-sm-1 "></i>
+                                        <span class="">0</span>
+                                    </li>
+                                </ul>
+                            </div>
+                
+                            <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4 order-5 order-xl-5 px-1 view_field">
+                                <ul class="list-inline mb-0 d-flex justify-content-end">
+                                    <li class="list-inline-item w-75 d-flex justify-content-between justify-content-sm-end align-items-center">
+                                        <i class="bi bi-eye-fill eye_icon ms-xs-auto me-sm-1 "></i>
+                                        <span class="">4</span>
+                                    </li>
+                                </ul>
+                            </div>
+                
                         </div>
-            
-                        <div class="col-xxl-8 col-xl-7 order-1 order-xl-1 px-1 category_field d-flex align-items-center">
-                            <span class="card-text"> Aksiyon </span>
-                        </div>
-            
-                        <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-5 col-sm-5 col-3 order-xl-2 order-3 px-1 rating_field">
-                            <ul class="list-inline mb-0 d-flex justify-content-end">
-                                <li class="list-inline-item w-75 d-flex justify-content-between justify-content-xl-end align-items-center">
-                                    <i class="bi bi-star-fill me-xl-1 me-md-1"></i>
-                                    <span class="">7,4</span>
-                                </li>
-                            </ul>
-                        </div>
-            
-                        <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7 col-sm-7 col-9 order-xl-3 order-2 px-1 year_field d-flex align-items-center">
-                            <span class="year">2025</span>
-                        </div>
-            
-                        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-4 col-3 order-4 order-xl-4 px-1 comment_field">
-                            <ul class="list-inline mb-0 d-flex justify-content-xl-end justify-content-lg-start">
-                                <li class="list-inline-item w-75 d-flex justify-content-between justify-content-xl-end align-items-center">
-                                    <i class="bi bi-chat-right-fill me-lg-1 me-sm-1"></i>
-                                    <span class="">0</span>
-                                </li>
-                            </ul>
-                        </div>
-            
-                        <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-4 col-3 order-5 order-xl-5 px-1 view_field">
-                            <ul class="list-inline mb-0 d-flex justify-content-end">
-                                <li class="list-inline-item w-75 d-flex justify-content-between justify-content-xl-end align-items-center">
-                                    <i class="bi bi-eye-fill eye_icon ms-xs-auto me-lg-1 me-sm-1"></i>
-                                    <span class="">4</span>
-                                </li>
-                            </ul>
-                        </div>
-            
+
+
+
                     </div>
 
                 </div>
@@ -94,7 +98,7 @@
 
 <div class="pagination_container">
     <div class="pagination p1">
-        <ul class="border_green">
+        <ul class="">
           <a href="#"><li><</li></a>
           <a class="is-active" href="#"><li>1</li></a>
           <a href="#"><li>2</li></a>

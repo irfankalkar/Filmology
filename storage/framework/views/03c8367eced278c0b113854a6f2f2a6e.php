@@ -1,15 +1,28 @@
 <div class="container each_content bg-dark text-light comment_field py-3 px-3" style="--mt:14px; --mb:14px; --br_size:2px;">
     
     <div class="col-md-12">
-        <div class="row d-flex justify-content-md-start">
+        <div class="row d-flex justify-content-md-between">
             
 
-            <div class="col-md-3">
+            <div class="col-md-12 col-lg-5">
                 <h4 class="special_title mb-2">
                     <span class="half_background_brown">
                         &nbsp;YORUMLAR&nbsp;
                     </span>
                 </h4>
+            </div>
+
+            <div class="col-md-9 col-lg-7 info_who_can_comment">
+                <ul class="list-inline d-flex justify-content-lg-end align-items-center">
+
+                    <li class="list-inline-item"><i class="fa-solid fa-lock fs-6"></i></li>
+                    <li class="list-inline-item">Sadece kayıtlı kullanıcılar yorum yapabilir.</li>
+
+                    <a href="<?php echo e(route('login_register_href')); ?>" class="rounded">
+                        <li class="list-inline-item rounded p-1 px-2 fw-bold border border-white">Kayıt Ol / Giriş Yap</li>
+                    </a>
+
+                </ul>
             </div>
 
 

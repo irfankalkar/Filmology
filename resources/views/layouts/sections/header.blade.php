@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="col-md-1 slogan_left_copy text-start">
-                    <div>
+                    <div class="">
                         <span>Tavsiye</span>
                         <span>Film</span>
                         <span>Sitesi'ne</span>
@@ -29,7 +29,7 @@
 
                 <div class="col-md-1 more_options_icon_container text-center" id="more_options_icon">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item"><i class="bi bi-three-dots"></i></li>
+                        <li class="list-inline-item"><i class="bi bi-three-dots fs-2"></i></li>
                     </ul>
                 </div>
 
@@ -79,31 +79,6 @@
                                     
                                 </ul>
                             </div>
-
-
-
-
-                            {{-- <div class="col-md-1 dark_light_icons_container">
-                                <ul class="list-inline mb-0 d-flex justify-content-end">
-
-                                    <li class="list-inline-item">
-                                        <a href="{{ route('light_href') }}">
-                                            <i class="bi bi-brightness-high-fill p-1 {{ Route::is('light_href') ? "bi-brightness-high-fill_active" : "" }}"></i>
-                                        </a>
-                                    </li>
-
-                                    <li class="list-inline-item {{ Route::is('dark_href') ? "bi-moon-fill_active" : "" }}">
-                                        <a href="{{ route('dark_href') }}">
-                                            <i class="bi bi-moon-fill p-1 {{ Route::is('dark_href') ? "bi-moon-fill_active" : "" }}"></i>
-                                        </a>
-                                    </li>
-                                    
-                                </ul>
-                            </div> --}}
-
-
-
-
 
 
                             <div class="col-md-1 dark_light_icons_container">

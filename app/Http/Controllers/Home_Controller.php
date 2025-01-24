@@ -23,4 +23,10 @@ class Home_Controller extends Controller
     {
         return view("front.contact");
     }
+
+
+    public function lists_page()
+    {
+        return view("front.lists");
+    }
 }

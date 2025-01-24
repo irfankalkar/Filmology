@@ -7,90 +7,36 @@
 
 
 
-<?php $__env->startSection('navbar'); ?>
-
-    
-        <?php echo $__env->make("layouts.sections.navbar", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-    
-
-<?php $__env->stopSection(); ?>
-
-
-
-
-
-
-<?php $__env->startSection('content_1'); ?>
-
-        
-    <div class="col-md-5 each_section"> 
-        <div class="row p-2">
-
-            
-                <?php echo $__env->make("layouts.sections.home_trailer_cards", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-            
-
-        </div>
-    </div>
-
-<?php $__env->stopSection(); ?>
-
-
-
-
-
-
-
-<?php $__env->startSection('content_2'); ?>
-
-        
-    <div class="col-md-7 each_section"> 
-        <div class="row p-2">
-
-            
-                <?php echo $__env->make("layouts.sections.home_trailer_video", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-            
-
-        </div>
-    </div>
-
-<?php $__env->stopSection(); ?>
-
-
-
-
-
-
-
 <?php $__env->startSection('content_3'); ?>
 
-        
-    <div class="col-md-12 each_section"> 
-        <div class="row p-2">
+
+    <div class="col-md-12 each_section">
+        <div class="row p-0 p-md-2">
+
+            <div class="col-md-12 each_section_design">
+
+                <div class="row">
+
+
+
+                    <div class="col-md-12 p-2">
+            
+                        <div class="container each_content bg-dark py-2 px-2 py-md-3 px-md-3" style="--br_size:2px;">
+                            <div class="row">
+                                
+                                    <?php echo $__env->make("layouts.sections.coming_soon_about", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+
 
             
-                <?php echo $__env->make("layouts.sections.advertisement_1", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
+                </div>
             
-
-        </div>
-    </div>
-
-<?php $__env->stopSection(); ?>
-
-
-
-
-
-
-
-<?php $__env->startSection('content_4'); ?>
-
-    <div class="col-md-9 each_section">
-        <div class="row p-2">
-
-
-                <?php echo $__env->make("layouts.sections.cards_and_slider.slider_lists.slider_new_movies", \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
-
+            </div>
 
         </div>
     </div>

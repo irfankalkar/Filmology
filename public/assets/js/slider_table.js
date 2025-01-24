@@ -1,7 +1,7 @@
 
-// ONE SLIDER - FOUR CARDS
+    // ONE SLIDER - FOUR CARDS
 
-  new Swiper('.slider_table_four .slider-wrapper', {
+    new Swiper('.slider_table_four .slider-wrapper', {
       loop: true,
       grabCursor: true,
       spaceBetween: 30,
@@ -22,23 +22,30 @@
       // Responsive breakpoints
       breakpoints: {
         0: {
-          slidesPerView: 2
+          slidesPerView: 2,
+          spaceBetween: 20
+        },
+        400: {
+          slidesPerView: 2,
+          spaceBetween: 10
+        },
+        430: {
+          slidesPerView: 2,
+          spaceBetween: 15
         },
         768: {
-          slidesPerView: 2
+          slidesPerView: 3,
+          spaceBetween: 20
+        },
+        992: {
+          slidesPerView: 3,
+          spaceBetween: 25
         },
         1024: {
-          slidesPerView: 3
-        },
-        1350: {
           slidesPerView: 4
         }
       }
     });
-
-
-
-
 
 
 
@@ -66,10 +73,24 @@ new Swiper('.slider_table_three .slider-wrapper', {
   // Responsive breakpoints
   breakpoints: {
     0: {
-      slidesPerView: 1
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    400: {
+      slidesPerView: 2,
+      spaceBetween: 10
+    },
+    430: {
+      slidesPerView: 2,
+      spaceBetween: 15
     },
     768: {
-      slidesPerView: 2
+      slidesPerView: 2,
+      spaceBetween: 20
+    },
+    992: {
+      slidesPerView: 2,
+      spaceBetween: 25
     },
     1024: {
       slidesPerView: 3

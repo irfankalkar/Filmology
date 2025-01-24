@@ -13,16 +13,12 @@
 <script src="{{ asset('assets/js/navbar.js') }}"></script>
 <script src="{{ asset('assets/js/contact.js') }}"></script>
 
-<script src="{{ asset('assets/js/trailer_section.js') }}"></script>
 <script src="{{ asset('assets/js/colorful_borders.js') }}"></script>
 <script src="{{ asset('assets/js/login_register_button.js') }}"></script>
 
-<script src="{{ asset('assets/js/new_movies.js') }}"></script>
-
-<script src="{{ asset('assets/js/movie_details.js') }}"></script>
-{{-- <script src="{{ asset('assets/js/slider_table_ABCDEF.js') }}"></script> --}}
 <script src="{{ asset('assets/js/slider_table.js') }}"></script>
 
+<script src="{{ asset('assets/js/home_trailer_cards.js') }}"></script>
 <script src="{{ asset('assets/js/movie_card_and_summary.js') }}"></script>
 <script src="{{ asset('assets/js/textarea.js') }}"></script>
 

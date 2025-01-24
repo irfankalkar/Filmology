@@ -1,5 +1,5 @@
 
-<nav class="navbar navbar-expand-lg py-0 border_black header_next_navbar_outer">
+<nav class="navbar navbar-expand-lg py-0 header_next_navbar_outer">
     <div class="container navbar_items">
 
       <div class="navbar-collapse header_next_navbar">
@@ -56,23 +56,23 @@
         <ul class="navbar-nav header_next_navbar_right_container">
 
             <li class="nav-item">
-              <a class="nav-link py-1" href="#">
+              <a class="nav-link py-1" href="<?php echo e(route('lists_href')); ?>">
                   <i class="bi bi-card-list px-1 py-0"></i>
-                  <span>Listeler</span>
+                  <span class="">Listeler</span>
               </a>
             </li>
   
             <li class="nav-item">
               <a class="nav-link py-1" href="#">
                   <i class="bi bi-dice-5 px-1 py-0"></i>
-                  <span>Zar at</span>
+                  <span class="">Zar at</span>
               </a>
             </li>
   
             <li class="nav-item">
               <a class="nav-link py-1" href="#">
                   <i class="bi bi-emoji-heart-eyes px-1 py-0"></i>
-                  <span>Tavsiyeni sun</span>
+                  <span class="">Tavsiyeni sun</span>
               </a>
             </li>
   

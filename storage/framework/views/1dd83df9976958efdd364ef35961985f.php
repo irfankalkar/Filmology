@@ -3,7 +3,7 @@
 <div class="col-md-12 each_section_design login_form_field">
 
         
-    <div class="each_content" style="--mt:14px; --mb:14px; --br_size:3px;">
+    <div class="each_content mt-3 mb-3" style="--br_size:3px;">
 
             
         <div class="row px-3 pb-3">

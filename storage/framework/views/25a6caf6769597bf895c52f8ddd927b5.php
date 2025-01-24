@@ -12,14 +12,14 @@
             
             <div class="card-list swiper-wrapper">
             
-                @for ($i = 0; $i < 6; $i++)
+                <?php for($i = 0; $i < 6; $i++): ?>
             
                     <div class="card-item swiper-slide movie_each_card" style="border: solid 2px rgb(112, 181, 223); border-radius: 5px;" title="Bir Garip Yazılımcının Hayat Hikayesi">
             
                         <div class="col-md-12 image_field">
 
             
-                            <img src="{{asset('assets/image/movie_covers/4.jpg')}}" alt="User Image"/>
+                            <img src="<?php echo e(asset('assets/image/movie_covers/4.jpg')); ?>" alt="User Image"/>
 
             
                             <div class="overlay px-3 pt-3 movie_summary">
@@ -84,7 +84,7 @@
             
                     </div>
             
-                @endfor
+                <?php endfor; ?>
             
             </div>
             
@@ -96,4 +96,4 @@
 
         </div>
 
-</div>
+</div><?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/sections/cards_and_slider/slider_lists/slider_the_most_rated.blade.php ENDPATH**/ ?>

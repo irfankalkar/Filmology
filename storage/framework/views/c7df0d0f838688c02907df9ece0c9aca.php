@@ -11,7 +11,7 @@
                 </div>
 
                 <div class="col-md-1 slogan_left_copy text-start">
-                    <div>
+                    <div class="">
                         <span>Tavsiye</span>
                         <span>Film</span>
                         <span>Sitesi'ne</span>
@@ -29,7 +29,7 @@
 
                 <div class="col-md-1 more_options_icon_container text-center" id="more_options_icon">
                     <ul class="list-inline mb-0">
-                        <li class="list-inline-item"><i class="bi bi-three-dots"></i></li>
+                        <li class="list-inline-item"><i class="bi bi-three-dots fs-2"></i></li>
                     </ul>
                 </div>
 
@@ -79,15 +79,6 @@
                                     
                                 </ul>
                             </div>
-
-
-
-
-                            
-
-
-
-
 
 
                             <div class="col-md-1 dark_light_icons_container">

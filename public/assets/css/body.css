@@ -74,8 +74,8 @@ body .background_image {
 
 
 .each_section .each_content{
-    margin-top: var(--mt);
-    margin-bottom: var(--mb);
+    /* margin-top: var(--mt);
+    margin-bottom: var(--mb); */
 
     border: solid var(--br_size) white;
     border-radius: 8px;
@@ -160,13 +160,14 @@ body .background_image {
         display: inline-block;
         font-size: 24px;
         font-weight: bold;
-        padding: 10px;
+        /* padding: 10px; */
+        padding-bottom: 5px;
         overflow: hidden;
         color: white;
         text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8); /* Yazı gölgesi eklendi */
     }
 
-    .half_background_first_blue, .half_background_second_blue, .half_background_brown {
+    .half_background_first_blue, .half_background_second_blue, .half_background_brown, .half_background_purple {
         position: relative;
         z-index: 1;
     }
@@ -209,6 +210,21 @@ body .background_image {
         background: rgb(242, 133, 0);
         z-index: -1;
     }
+
+
+    .half_background_purple::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 50%;
+        background: deeppink;
+        z-index: -1;
+    }
+
+
+
 
 /* ÖZELLEŞTİRİLMİŞ TITLE */
 

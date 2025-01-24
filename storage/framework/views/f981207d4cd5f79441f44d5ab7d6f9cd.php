@@ -122,4 +122,4 @@
 
     </div>
     
-</div>
+</div><?php /**PATH C:\wamp64\www\Filmology\resources\views/layouts/sections/admin/admin.blade.php ENDPATH**/ ?>

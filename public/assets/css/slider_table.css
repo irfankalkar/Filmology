@@ -1,11 +1,11 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
 
 
-.slider_table * {
+/* .slider_table * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-}
+} */
 
 
 .slider_table .slider-wrapper {
@@ -31,15 +31,6 @@
   /* backdrop-filter: blur(30px); */
   background-color: black;
 }
-
-
-
-
-
-
-
-
-
 
 
 

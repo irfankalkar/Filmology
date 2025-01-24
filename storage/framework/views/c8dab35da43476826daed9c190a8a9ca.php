@@ -1,13 +1,13 @@
 
     
-<div class="col-md-12 each_section_design advertisement">
+<div class="col-md-12 p-0 px-md-2 advertisement">
 
         
-    <div class="each_content image_field" style="--mt:14px; --mb:14px; --br_size:2px;">
+    <div class="each_content image_field mt-2 mb-2" style="--br_size:0px;">
 
-        <a href="https://turkish.alibaba.com/f/marry-christmas.html">
+        <a href="https://turkish.alibaba.com/f/marry-christmas.html" class="p-0">
             
-            <img src="<?php echo e(asset('assets/image/advertisement/ad_design_created_by_Serdar.png')); ?>" class="rounded-2 mx-auto d-block w-100" alt="reklam">
+            <img src="<?php echo e(asset('assets/image/advertisement/ad_design_created_by_Serdar.png')); ?>" class="rounded-2 img-fluid" alt="reklam" style="border: solid 4px rgb(7, 175, 247);">
         </a>
 
     </div>
