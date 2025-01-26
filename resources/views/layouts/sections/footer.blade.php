@@ -4,7 +4,7 @@
         <div class="row">
 
             <div class="col-md-2 logo_container">
-                <img class="logo" src="{{asset('image/logo/Filmology_transparent_no_slogan.png')}}" alt="logo_footer">
+                <img class="logo" src="{{asset('assets/image/logo/Filmology_transparent_no_slogan.png')}}" alt="logo_footer">
             </div>
 
             <div class="col-md-5 social_field">
@@ -19,9 +19,9 @@
 
                 <div class="row">
                     <ul>
-                        <li><a href=""><i class="bi bi-facebook"></i></a></li>
-                        <li><a href=""><i class="bi bi-twitter-x"></i></a></li>
-                        <li><a href=""><i class="bi bi-whatsapp"></i></a></li>
+                        <li><a href="https://www.facebook.com" target="_blank"><i class="bi bi-facebook"></i></a></li>
+                        <li><a href="https://www.x.com" target="_blank"><i class="bi bi-twitter-x"></i></a></li>
+                        <li><a href="https://www.whatsapp.com" target="_blank"><i class="bi bi-whatsapp"></i></a></li>
                     </ul>
                 </div>
                 
@@ -39,7 +39,7 @@
                         </div>
                         <div class="col-md-6 justify-content-start d-flex">
                             <i class="bi bi-envelope-at-fill"></i>
-                            <p> emele@gmail.com </p>
+                            <p> filmology21@gmail.com </p>
                         </div>
                     </div>
                 </div>

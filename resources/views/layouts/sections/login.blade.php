@@ -1,9 +1,12 @@
 
-<div class="col-md-12 rounded-2 each_section_design login_form_field">
+        {{-- En üst açık mavi renki Container --}}
+<div class="col-md-12 each_section_design login_form_field">
 
-    <div class="login_form_field_content border_white">
+        {{-- Kutunun iç ana öğelerinden her biri - Kolaylıkla Özelleştirilebilir --}}
+    <div class="each_content mt-3 mb-3" style="--br_size:3px;">
 
-        <div class="row px-2 pt-0 pb-2 border_green">
+            {{-- Paddingler sayesinde içerik çizgilerden uzaklaşabilir. Daha fazla özelleştirme için kullanılır... --}}
+        <div class="row px-3 pb-3">
 
             <div class="col-md-12 mb-4">
                 <div class="title rounded-bottom">
@@ -14,39 +17,51 @@
 
             <div class="col-md-12">
 
-                <form action="" method="">
-        
+                <form action="{{ route("login_form_href") }}" method="POST">
+                    
                     <div class="row">
+
+                        @csrf
             
                         <div class="input-group mb-3">
-                            <input type="text" class="form-control placeholder-icon" placeholder="Kullanıcı Adı" aria-label="Username" aria-describedby="basic-addon1">
+                            <input name="userNameLogin" type="text" class="form-control placeholder-icon" placeholder="Kullanıcı Adı" aria-label="Username" aria-describedby="basic-addon1">
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-person-fill"></i> </span>
                         </div>
             
-                        <div class="input-group mb-5">
-                            <input type="password" class="form-control placeholder-icon" placeholder="Şifre" aria-label="Username" aria-describedby="basic-addon1">
+                        <div class="input-group free_margin_bottom" style="--mb:101px;">
+                            <input name="passwordLogin" type="password" class="form-control placeholder-icon" placeholder="Şifre" aria-label="Username" aria-describedby="basic-addon1">
                             <span class="input-group-text" id="basic-addon1"> <i class="bi bi-key-fill"></i> </span>
                         </div>
-                        
-                        {{-- <div class="col-md-12 mb-4">
-                            <button class="kayit" type="submit">Giriş Yap</button>
-                        </div> --}}
 
-                        <div class="mb-4">
-                            <button type="button" class="btn btn-sm w-100 fw-bolder login_btn">Giriş Yap</button>
+
+                        <div class="mb-4 fw-bolder login_btn_field">
+                            <div class="button_su">
+                              <span class="su_button_circle"> </span>
+                            
+
+                              {{-- <a href="#" class="button_su_inner" style="--pdt:5px; --pdb:5px;">
+                                <span class="button_text_container text-dark">
+                                  Giriş Yap
+                                </span>
+                              </a> --}}
+
+
+                              <button type="submit" class="button_su_inner" style="--pdt:5px; --pdb:5px;">
+                                <span class="button_text_container text-dark">
+                                  Giriş Yap
+                                </span>
+                            </button>
+
+
+                            </div>
                         </div>
+
             
                         <div class="or_field mb-4">
                             <div class="lines"></div>
                                     <b>VEYA</b>
                             <div class="lines"></div>
                         </div>
-            
-                        {{-- <div class="col-md-12">
-                            <button class="google" type="submit">
-                                <span class="google-icon">G</span><b>Google ile Devam Et</b>
-                            </button>
-                        </div> --}}
 
                         <div>
                             <button type="button" class="btn btn-lg btn-light w-100 google_btn p-3"> <i class="bi bi-google"></i> Google ile Devam Et </button>

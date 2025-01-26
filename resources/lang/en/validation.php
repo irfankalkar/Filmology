@@ -129,6 +129,7 @@ return [
     'uploaded' => 'The :attribute failed to upload.',
     'url' => 'The :attribute must be a valid URL.',
     'uuid' => 'The :attribute must be a valid UUID.',
+    
 
     /*
     |--------------------------------------------------------------------------
@@ -142,10 +143,60 @@ return [
     */
 
     'custom' => [
-        'attribute-name' => [
-            'rule-name' => 'custom-message',
+        'fullNameRegister' => [
+            'required' => 'Lütfen adınızı ve soyadınızı giriniz.',
+            'string' => 'Ad ve soyad metin olmalıdır.',
+            'max' => 'Ad ve soyad en fazla 255 karakter olabilir.',
+            'min' => 'Ad ve soyad en az 3 karakter olmalıdır.',
+        ],
+        'userNameRegister' => [
+            'required' => 'Lütfen bir kullanıcı adı giriniz.',
+            'string' => 'Kullanıcı adı metin olmalıdır.',
+            'max' => 'Kullanıcı adı en fazla 255 karakter olabilir.',
+            'min' => 'Kullanıcı adı en az 3 karakter olmalıdır.',
+            'unique' => 'Bu kullanıcı adı zaten alınmış.',
+        ],
+        'phoneNumberRegister' => [
+            'required' => 'Lütfen telefon numaranızı giriniz.',
+            'string' => 'Telefon numarası metin olmalıdır.',
+            'max' => 'Telefon numarası en fazla 15 karakter olabilir.',
+        ],
+        'emailRegister' => [
+            'required' => 'Lütfen bir e-posta adresi giriniz.',
+            'email' => 'Lütfen geçerli bir e-posta adresi giriniz.',
+            'unique' => 'Bu e-posta adresi zaten kayıtlı.',
+        ],
+        'passwordRegister' => [
+            'required' => 'Lütfen bir şifre giriniz.',
+            'string' => 'Şifre metin olmalıdır.',
+            'min' => 'Şifreniz en az 8 karakter olmalıdır.',
+            'same' => 'Şifreler eşleşmelidir.',
+        ],
+        'fullNameContant' => [ /////////
+            'required' => 'Lütfen adınızı ve soyadınızı giriniz.',
+            'string' => 'Ad ve soyad metin olmalıdır.',
+        ],
+        'emailContant' => [
+            'required' => 'Lütfen bir e-posta adresi giriniz.',
+            'string' => 'Email adı metin olmalıdır.',
+            'email' => 'Lütfen geçerli bir e-posta adresi giriniz.',
+        ],
+        'messageSubjectContant' => [
+            'required' => 'Lütfen mesajınızın konusunu giriniz.',
+            'string' => 'Mesajın konusu metin olmalıdır.',
+
+        ],
+        'messageContant' => [
+            'required' => 'Lütfen mesajınızın içeriğini giriniz.',
+            'string' => 'Mesajın konusu metin olmalıdır.',
+        ],
+        'telephoneContant' => [
+            'required' => 'Lütfen telefon numaranızı giriniz.',
+            'string' => 'Telefon numarası metin olmalıdır.',
+            'max' => 'Telefon numarası en fazla 15 karakter olabilir.',
         ],
     ],
+    ];
 
     /*
     |--------------------------------------------------------------------------
@@ -157,7 +208,3 @@ return [
     | of "email". This simply helps us make our message more expressive.
     |
     */
-
-    'attributes' => [],
-
-];

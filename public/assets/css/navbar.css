@@ -206,14 +206,19 @@
         padding-right: 300px;
     }
 
+    .header_next_navbar_left_container .nav-link{
+        border: none;
+    }
+
     .header_next_navbar_right_container .nav-link{    
         padding-left: 27.1px !important;
         padding-right: 27.1px !important;
         border: none;
+
+        display: flex;
+        flex-direction: column;
     }
 
-    .header_next_navbar_left_container .nav-link{
-        border: none;
-    }
+
 }
 

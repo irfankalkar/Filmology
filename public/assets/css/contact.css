@@ -1,0 +1,117 @@
+
+.contact_form_field .title {
+    background-color: rgb(27, 75, 97);
+    color: rgb(228, 228, 228);
+
+    display:flex;
+    justify-content: start;
+
+    border: solid 4px rgb(112, 181, 223);
+    border-top: none;
+
+    padding-left: 10px;
+}
+
+.contact_form_field .title h5 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+.contact_form_field .input-group input, .contact_form_field .input-group textarea, .contact_form_field .input-group span{
+    background-color: transparent;
+
+    border: solid 2px white;
+    border-radius: 0;
+
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+    color: white;
+}
+
+.contact_form_field .input-group span.message_box{
+    border: solid 2px white;
+
+    border-top: none;
+    border-left: none;
+}
+
+
+.contact_form_field .input-group input::placeholder, .contact_form_field .input-group textarea::placeholder{
+    opacity: 1;
+    color: rgb(199, 199, 199);
+}
+
+
+.contact_form_field .input-group input:focus, .contact_form_field .input-group textarea:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+
+
+
+
+    /* Textarea temel ayarları */
+        #resizableTextArea {
+            /* width: 300px; */
+            min-height: 91px;
+            /* border: 1px solid #ccc; */
+            /* padding: 10px; */
+            box-sizing: border-box;
+            resize: none;
+            overflow: hidden;
+        }
+
+    /* Alt sınır boyunca tıklanabilir ve imleç gösterecek alan */
+        .resize-bar {
+            /* width: 80%; */
+            height: 1px;
+            background: #ddd;
+            cursor: ns-resize;
+            position: relative;
+        }
+
+    /* Hover efektiyle görsel ipucu */
+        .resize-bar:hover {
+            background: #bbb;
+        }
+
+
+
+/* .contact_form_field .input-group textarea {
+    resize: both;
+    overflow: auto;
+    outline: none;
+}
+
+.contact_form_field .input-group textarea::-webkit-resizer {
+    color: white;
+} */
+
+
+
+
+
+
+
+.contact_form_field button{
+    background-color: rgb(27, 75, 97);
+    border: solid 2px white;
+    color: rgb(228, 228, 228);;
+}
+
+.contact_form_field button:hover {
+    box-shadow: none;
+    outline: none;
+
+    background-color: rgb(5, 172, 243);
+    border: solid 2px white;
+}

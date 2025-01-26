@@ -1,0 +1,87 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap'); */
+
+
+
+
+.movie_details .original_name_text_itself{
+    color: red;
+}
+
+.movie_details .date_duration_category{
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.movie_details .imdb_score, .movie_details .score_it_btn i, .movie_details .save_it_btn i{
+    color: orange;
+}
+
+.movie_details .score_it_btn, .movie_details .save_it_btn{
+    /* background-color: rgb(144, 122, 60); */
+    border: solid 2px white;
+    color: white;
+
+    font-weight: bold;
+}
+
+.movie_details .score_it_btn:hover, .movie_details .save_it_btn:hover {
+    box-shadow: none;
+    outline: none;
+
+    background-color: white;
+    color: black;
+    
+    font-weight: bold;
+
+    /* background-color: rgb(228, 162, 82); */
+    /* border: solid 2px white; */
+    /* color: black; */
+}
+
+.movie_details .score_it_btn:hover .bi-star {
+    color: red;
+}
+
+.movie_details .save_it_btn:hover .bi-bookmark {
+    color: red;
+}
+
+
+
+
+.movie_details .score_it_btn span, .movie_details .save_it_btn span{
+    font-size: 13px;
+}
+
+@media (min-width: 1400px)
+{
+    .movie_details .score_it_btn i, .movie_details .save_it_btn i
+    {
+        font-size: 25px;
+    }
+}
+
+
+@media (min-width: 1200px)
+{
+    .movie_details .score_it_btn i, .movie_details .save_it_btn i
+    {
+        font-size: 20px;
+    }
+}
+
+
+
+
+.movie_details .cover_and_trailer_field{
+    background-color: black;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.movie_details .cover_and_trailer_field img, .movie_details .cover_and_trailer_field iframe{
+    border: solid 1px rgba(255, 255, 255, 0.4);
+}
+
+
+.movie_details .director_field span, .movie_details .screen_writer_field span, .movie_details .actor_actress_field span {
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+}
