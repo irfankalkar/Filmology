@@ -15,8 +15,7 @@ class Movie_Details_Controller extends Controller
         $movie = Movie::where('Movie_ID', $Movie_ID)->first();
         $mightLike = Movie::where('Category', $movie->Category)->inRandomOrder()->take(6)->get();
         if ($movie && $movie->View_Count < 2147483647) {
-            $movie->View_Count++;
-            $movie->save();
+            $movie->increment('View_Count');
         }
         return view('front.movie_details', compact('movie','mightLike','comments','user'));
     }

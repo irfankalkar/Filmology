@@ -23,4 +23,5 @@
     <link rel="stylesheet" href="{{asset('assets/css/movie_card_info_field.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/movie_card_and_summary.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/comments.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/css/about.css')}}">
     <link rel="stylesheet" href="{{asset('assets/css/home_trailer_cards_and_movies.css')}}">

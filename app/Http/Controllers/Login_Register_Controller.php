@@ -52,7 +52,6 @@ class Login_Register_Controller extends Controller
             'User_Name' => $validated['userNameRegister'],
             'Phone_Number' => $validated['phoneNumberRegister'],
             'User_Mail' => $validated['emailRegister'],
-            'User_Type_ID' => 1,
             'User_Password' => Hash::make($validated['passwordRegister']),
         ]);
  

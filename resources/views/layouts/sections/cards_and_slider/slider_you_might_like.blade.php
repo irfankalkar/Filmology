@@ -44,7 +44,7 @@
                                             <ul class="list-inline mb-0 d-flex justify-content-xl-end justify-content-lg-start">
                                                 <li class="list-inline-item w-75 d-flex justify-content-between justify-content-sm-start align-items-center">
                                                     <i class="bi bi-chat-right-fill me-sm-1 "></i>
-                                                    <span class="">0</span>
+                                                    <span class="">{{$movie->Comment_Count}}</span>
                                                 </li>
                                             </ul>
                                         </div>

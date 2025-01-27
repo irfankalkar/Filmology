@@ -15,7 +15,6 @@ class Comment extends Model
         'Movie_ID', 
         'C_Like',
         'Dislike',
-        'Time',
     ];
 
     public function user()
