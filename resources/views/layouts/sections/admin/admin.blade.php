@@ -1,27 +1,3 @@
-@if (session('success'))
-    <script>
-        window.onload = function() {
-            Swal.fire({
-                icon: 'success',
-                title: 'Başarılı!',
-                text: '{{ session('success') }}'
-            });
-        };
-    </script>
-@endif
-
-@if (session('error'))
-    <script>
-        window.onload = function() {
-            Swal.fire({
-                icon: 'error',
-                title: 'Hata!',
-                text: '{{ session('error') }}'
-            });
-        };
-    </script>
-@endif
-
 <div class="col-md-12 each_section_design admin">
 
     <div class="container each_content bg-dark text-white mt-3 mb-3" style="--br_size:3px;">
@@ -133,7 +109,7 @@
                             </div>
                             <div class="col-md-6 mt-2">
                                 <label class="form-label">Fragman Ekleyiniz</label>
-                                <input name="movieTrailer" class="form-control" type="text" placeholder="Video'ya ait IFRAME etiketini buraya giriniz...">
+                                <input name="movieTrailer" class="form-control" type="text" placeholder="Video'ya ait youtube linkini buraya giriniz...">
                             </div>
                         </div>
                     </div>

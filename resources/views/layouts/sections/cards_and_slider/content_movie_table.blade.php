@@ -35,7 +35,7 @@
                                 </ul>
                             </div>
                             <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7 col-sm-7 col-7 order-xl-3 order-2 px-1 year_field d-flex align-items-center">
-                                <a href=""> <span class="year">{{$movie->Movie_Release_Year}}</span> </a>
+                                 <span class="year">{{$movie->Movie_Release_Year}}</span>
                             </div>
                             <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4 order-4 order-xl-4 px-1 comment_field">
                                 <ul class="list-inline mb-0 d-flex justify-content-xl-end justify-content-lg-start">

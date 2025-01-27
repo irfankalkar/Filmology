@@ -43,5 +43,5 @@ Route::post('/logout', function () {
     return redirect(route('home_href'));
 })->name('logout');
 Route::post('/contact', [Contact_Controller::class, 'send'])->name('contact_send');
-Route::get("/admin",[Admin_Controller::class, "admin_page"]);
+Route::get("/admin",[Admin_Controller::class, "admin_page"])->name('admin_page');
 Route::post("/admin",[Admin_Controller::class, "add_movie"])->name('add_movie');
