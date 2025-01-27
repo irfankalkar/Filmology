@@ -23,7 +23,6 @@ class Movie_Details_Controller extends Controller
 
     public function random_movie()
     {
-       // Veritabanındaki en küçük ve en büyük film ID'lerini al
         $minId = Movie::min('Movie_ID');
         $maxId = Movie::max('Movie_ID');
  

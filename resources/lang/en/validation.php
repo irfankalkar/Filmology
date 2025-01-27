@@ -172,7 +172,7 @@ return [
             'min' => 'Şifreniz en az 8 karakter olmalıdır.',
             'same' => 'Şifreler eşleşmelidir.',
         ],
-        'fullNameContant' => [ /////////
+        'fullNameContant' => [ 
             'required' => 'Lütfen adınızı ve soyadınızı giriniz.',
             'string' => 'Ad ve soyad metin olmalıdır.',
         ],

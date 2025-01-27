@@ -11,7 +11,6 @@ class Movie extends Model
 
     protected $table = 'movies';
 
-    // Veritabanındaki doldurulabilir değerler
     protected $fillable = [
         'Movie_ID',
         'Movie_Name',
@@ -32,7 +31,7 @@ class Movie extends Model
         'IMDB_Point',
         'View_Count',
     ];
-    protected $primaryKey = 'Movie_ID'; // Birincil anahtarınız
+    protected $primaryKey = 'Movie_ID'; 
     public $timestamps = false;
 }
 

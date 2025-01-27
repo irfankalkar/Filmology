@@ -15,16 +15,13 @@
     </script>
 @endif
     <div class="row">
-
         <nav class="navbar navbar-expand-lg header_options">
             <div class="container-fluid">
-
                 <div class="col-md-2 logo_container">
                     <a class="navbar-brand" href="{{ route('home_href') }}">
                         <img class="" src="{{asset('assets/image/logo/Filmology_transparent_no_slogan.png')}}" alt="logo_footer">
                     </a>
                 </div>
-
                 <div class="col-md-1 slogan_left_copy text-start">
                     <div class="">
                         <span>Tavsiye</span>
@@ -33,7 +30,6 @@
                         <span>Hoşgeldiniz</span>
                     </div>
                 </div>
-
                 <div class="col-md-1 slogan_left text-start">
                     <div>
                         <span>Tavsiye</span>
@@ -41,17 +37,14 @@
                         <span>Sitesi</span>
                     </div>
                 </div>
-
                 <div class="col-md-1 more_options_icon_container text-center" id="more_options_icon">
                     <ul class="list-inline mb-0">
                         <li class="list-inline-item"><i class="bi bi-three-dots fs-2"></i></li>
                     </ul>
                 </div>
-
                 <div class="col-md-8 col-lg-9 col-xl-10 py-2 mt-2" id="responsive_header_items_field">
                     <div class="row mx-0">
                         <div class="collapse navbar-collapse header_items px-0" id="navbarSupportedContent">
-
                             <div class="col-md-1 slogan_right text-start">
                                 <div>
                                     <span>Tavsiye</span>
@@ -59,7 +52,6 @@
                                     <span>Sitesi</span>
                                 </div>
                             </div>
-
                             <div class="col-md-4 ps-0 header_navbar_container">
                                 <ul class="navbar-nav mb-2 mb-lg-0">
                                     <li class="nav-item">
@@ -73,7 +65,6 @@
                                     </li>
                                 </ul>
                             </div>
-
                               <div class="col-md-5 search_container">
                                 <form class="d-flex" role="search" action="{{ route('search')}}" method="POST">
                                     @csrf
@@ -83,10 +74,8 @@
                                     </button>
                                 </form>
                             </div>
-
                             <div class="col-md-1 profile_icon_container text-center">
                                 <ul class="list-inline mb-0">
- 
                                 @if (Auth::check())
                                 <form action="{{ route('logout') }}" method="POST">
                                     @csrf
@@ -103,8 +92,6 @@
                             @endif                    
                                 </ul>
                             </div>
-
-
                             <div class="col-md-1 dark_light_icons_container">
                                 <ul class="list-inline mb-0 d-flex justify-content-end">
                                     <li class="list-inline-item">
@@ -112,7 +99,6 @@
                                             <i class="bi bi-brightness-high-fill p-1"></i>
                                         </a>
                                     </li>
-
                                     <li class="list-inline-item">
                                         <a href="javascript:void(0);" id="darkButton">
                                             <i class="bi bi-moon-fill p-1"></i>
@@ -120,15 +106,10 @@
                                     </li>
                                 </ul>
                             </div>
-
-
                         </div>
                     </div>
                 </div>
-
-                
             </div>
         </nav>
-
     </div>
 </div>

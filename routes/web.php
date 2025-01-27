@@ -45,6 +45,3 @@ Route::post('/logout', function () {
 Route::post('/contact', [Contact_Controller::class, 'send'])->name('contact_send');
 Route::get("/admin",[Admin_Controller::class, "admin_page"]);
 Route::post("/admin",[Admin_Controller::class, "add_movie"])->name('add_movie');
-
-// Route::get("/l",[Theme_Controller::class, "light_theme"]) -> name('light_href');
-// Route::get("/d",[Theme_Controller::class, "dark_theme"]) -> name('dark_href');

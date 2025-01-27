@@ -1,13 +1,10 @@
-
 .home_trailer_cards_for_other_movies .rating_field ul{
     border-bottom-left-radius: 5px;
 }
 
-
 .home_trailer_cards_for_other_movies ul li{
     color: orange;
 }
-
 
 .home_trailer_cards_for_other_movies .each_trailer_card
 {
@@ -20,7 +17,6 @@
   text-decoration: none;
 }
 
-  
 .home_trailer_cards_for_other_movies p {
     color: white;
 
@@ -28,11 +24,9 @@
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
 }
 
-
 .home_trailer_cards_for_other_movies .movie_title_field_top {
   background-color: #456ca2;
 }
-
 
 .home_trailer_cards_for_other_movies h6 {
     color: white;
@@ -42,7 +36,6 @@
     text-overflow: ellipsis;
     max-width: 100%;
 }
-
 
 @media (min-width: 1200px)
 {
@@ -61,7 +54,6 @@
       border-right: none;
     }
 }
-
 
 @media (min-width: 992px) and (max-width: 1199px)
 {
@@ -82,7 +74,6 @@
     }
 }
 
-
 @media (min-width: 768px)
 {
     .home_trailer_cards_for_other_movies img {
@@ -98,7 +89,6 @@
         border-top-right-radius: 5px;
     }
 }
-
 
 @media (min-width: 576px) and (max-width: 767px)
 {
@@ -121,7 +111,6 @@
   }
 }
 
-
 @media (max-width: 575px)
 {
   .home_trailer_cards_for_other_movies p {    
@@ -141,80 +130,6 @@
   }
 }
 
-
-
-
 .home_trailer_video iframe {
   border: solid 1px rgba(255, 255, 255, 0.4);
 }
-
-
-
-
-
-
-
-
-
-
-
-  
-  /* .home_trailer_cards_for_other_movies .in_box3 {
-    border: none;
-  } */
-  
-  /* .home_trailer_cards_for_other_movies h5 {
-    text-decoration: underline;
-  } */
-
-
-    /* .home_trailer_cards_for_other_movies .movie_img_news {
-    border: 2px solid white;
-    width: auto;
-  } */
-
-
-    /* .home_trailer_cards_for_other_movies .card_bd_news {
-    padding: 0 0 0 10px;  
-  } */
-
-
-    /* . .movie_name {
-    color: white;
-  } */
-
-    /* .home_trailer_cards_for_other_movies .text_box {
-    border: 2px solid white;
-    border-radius: 0 5px 5px 0;
-  } */
-  
-  /* .home_trailer_cards_for_other_movies .text_box_news {
-    border-radius: 0 5px 5px 0;
-    padding: 4px 0;
-  } */
-  
-  /* .home_trailer_cards_for_other_movies .movie_text_news {
-    font-size: 10px;
-    color: white;
-  } */
-  
-  /* .home_trailer_cards_for_other_movies .movie_text_news_small {
-    font-weight: bold;
-    font-size: 10px;
-    color: rgb(187, 187, 187);
-  } */
-  
-  /* .home_trailer_cards_for_other_movies button {
-    float: right;
-    border: 2px solid black;
-    padding: 5px;
-    background-color: white;
-    border-radius: 5px;
-  } */
-  
-  /* .home_trailer_cards_for_other_movies button:hover {
-    background-color: gray;
-    color: white;
-  } */
-
-

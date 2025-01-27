@@ -18,10 +18,10 @@ class Contact_Controller extends Controller
             'messageContant' => 'required|string',
         ]);
 
-        // E-posta gönder
+        
         Mail::to('filmology21@gmail.com')->send(new Contact_Form_Mail($data));
 
-        // Başarılı yanıt döndür
+        
         return redirect()->back()->with('success', 'Mesajınız başarıyla gönderildi!');
     }
 }

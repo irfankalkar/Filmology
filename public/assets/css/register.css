@@ -1,80 +1,41 @@
-
 .register_form_field .title {
     background-color: rgb(27, 75, 97);
     color: rgb(228, 228, 228);
-
     display:flex;
     justify-content: center;
-
     border: solid 4px rgb(112, 181, 223);
     border-top: none;
 }
-
 .register_form_field .title h5 {
     padding-top: 8px;
     padding-bottom: 8px;
     font-weight: bold;
 }
 
-
-
-
-
-
 .register_form_field .input-group input, .register_form_field .input-group span{
     background-color: transparent;
-
     border: solid 2px white;
     border-radius: 0;
-
     border-top: none;
     border-left: none;
     border-right: none;
-
     color: white;
 }
-
 
 .register_form_field .input-group input::placeholder{
     opacity: 1;
     color: rgb(199, 199, 199);
 }
 
-
 .register_form_field .input-group input:focus {
     box-shadow: none;
     outline: none;
 }
 
-
-
-
-
-
-
-/* .register_form_field .register_btn{
-    background-color: rgb(27, 75, 97);
-    border: solid 2px white;
-    color: rgb(228, 228, 228);;
-}
-
-.register_form_field .register_btn:hover {
-    box-shadow: none;
-    outline: none;
-
-    background-color: rgb(5, 172, 243);
-    border: solid 2px white;
-} */
-
 .register_form_field .register_btn_field{
     display:flex;
     justify-content:center;
 }
-
-
-
-
-
 
 .register_form_field .or_field {
     display: flex;
@@ -89,11 +50,6 @@
     background-color: black;
 }
 
-
-
-
-
-
 .register_form_field .google_btn{
     font-size: 16px;
     font-weight: bold;
@@ -102,16 +58,13 @@
     background-color: rgb(228, 228, 228);
 }
 
-
 .register_form_field .google_btn .bi-google{
     margin-right: 10px;
 }
 
-
 .register_form_field .google_btn:hover {
     box-shadow: none;
     outline: none;
-
     background-color: #353535;
     border: solid 3px rgb(228, 228, 228);
     color: rgb(228, 228, 228);

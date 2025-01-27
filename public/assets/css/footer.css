@@ -1,15 +1,6 @@
-
-
-
-    .footer_container p{
+.footer_container p{
         margin-bottom: 12px;
-    }
-        
-/* ------------------------------------------------------------------------------------------------------- */
-/* ------------------------------------------------------------------------------------------------------- */
-
-
-
+    }  
 
 footer, .footer_container{
     background-color: black;
@@ -25,15 +16,9 @@ footer, .footer_container{
     align-items: center;
 }
 
-
 .footer_container .logo_container .logo{
     width: 150px;
 }
-
-
-
-
-
 
 .social_field{
     border-left: 1px solid white;
@@ -61,12 +46,6 @@ footer, .footer_container{
     font-size: 20px;
 }
 
-
-
-
-
-
-
 .contact_field i{
     flex-direction: column;
     margin-right: 10px;
@@ -78,22 +57,8 @@ footer, .footer_container{
     color: yellow;
 }
 
-
-
-
-
-
-
 .copyright{
     margin-top: 10px;
     border-top: 1px solid white;
     padding-top: 16px;
 }
-
-
-
-
-
-
-
-

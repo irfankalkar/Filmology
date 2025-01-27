@@ -51,11 +51,9 @@
 </head>
 <body>
     <div class="email-container">
-
         <div class="email-header">
             <h1>Yeni İletişim Formu Mesajı</h1>
         </div>
-
         <div class="email-body">
             <p><strong>Ad:</strong> {{ $data['fullNameContant'] }}</p>
             <p><strong>Telefon:</strong> {{ $data['telephoneContant'] }}</p>
@@ -63,7 +61,6 @@
             <p><strong>Konu:</strong> {{ $data['messageSubjectContant'] }}</p>
             <p><strong>Mesaj:</strong> {{ $data['messageContant'] }}</p>
         </div>
-
         <div class="email-footer">
             <p>Bu e-posta otomatik olarak gönderilmiştir. Lütfen yanıtlamayınız.</p>
         </div>

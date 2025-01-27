@@ -43,7 +43,7 @@ class Login_Register_Controller extends Controller
             'userNameRegister' => 'required|string|max:255|min:3|unique:users,User_Name',
             'phoneNumberRegister' => 'required|string|max:15',
             'emailRegister' => 'required|email|unique:users,User_Mail',
-            'passwordRegister' => 'required|string|min:8|same:passwordRegisterAgain',  // Şifrelerin eşleşmesi
+            'passwordRegister' => 'required|string|min:8|same:passwordRegisterAgain',
         ]);
  
         // Yeni kullanıcı oluşturma

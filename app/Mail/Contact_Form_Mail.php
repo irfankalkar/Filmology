@@ -11,7 +11,7 @@ class Contact_Form_Mail extends Mailable
 {
     use Queueable, SerializesModels;
 
-    public $data; // Formdan gelen veriler
+    public $data; 
 
     /**
      * Create a new message instance.
@@ -30,7 +30,7 @@ class Contact_Form_Mail extends Mailable
      */
     public function build()
     {
-        return $this->subject('İletişim Mesajı') // E-posta konusu
-                    ->view('emails.contact-form'); // E-posta şablonu
+        return $this->subject('İletişim Mesajı') 
+                    ->view('emails.contact-form'); 
     }
 }

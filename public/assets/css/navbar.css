@@ -14,14 +14,11 @@
     border: solid 2px rgb(3, 102, 145);
     font-size:small;
     font-weight: bold;
-
     border-right:none;
     border-top: none;
     border-bottom: none;
-
     padding-left: 24px !important;
     padding-right: 24px !important;
-
     padding-top: 6px;
     padding-bottom: 6px;
 }
@@ -31,25 +28,10 @@
     color: rgb(238, 238, 238);
 }
 
-
-
-
-        /* .header_next_navbar_left_container .dropdown-menu{
-            background-color: rgb(0, 149, 217);
-            border: solid 3px white;
-        }
-
-        .header_next_navbar_left_container .dropdown-menu .dropdown-item:hover{
-            background-color: #353535;
-            color: rgb(238, 238, 238);
-        } */
-
-
         .header_next_navbar_left_container .dropdown-menu{
             background-color: rgb(3, 102, 145);
             border: solid 3px rgb(238, 238, 238);
         }
-
 
         .header_next_navbar_left_container .dropdown-menu .dropdown-item{
             color: rgb(238, 238, 238);
@@ -60,20 +42,14 @@
             color: #353535;
         }
 
-
-
-
-
 .header_next_navbar_right_container .nav-link{
     color: rgb(0, 0, 0);
     border: solid 2px #353535;
     font-size:small;
     font-weight: bold;
-
     border-left:none;
     border-top: none;
     border-bottom: none;
-
     padding-left: 24px !important;
     padding-right: 24px !important;
 }
@@ -87,42 +63,6 @@
     color: rgb(202, 202, 202);
 }
 
-/* .header_next_navbar_right_container .nav-link:hover{
-    background-color: rgb(3, 102, 145);
-    color: rgb(238, 238, 238);
-} */
-
-/* .header_next_navbar_right_container .nav-link:hover{
-    background-color: rgb(3, 102, 145);
-    color: rgb(238, 238, 238);
-} */
-
-
-
-
-
-
-
-/* .border_black{
-    border: solid 1px black;
-}
-
-.border_red{
-    border: solid 1px red;
-}
-
-.border_turuncu{
-    border: solid 1px orange;
-} */
-
-
-
-
-
-
-
-
-
 @media (max-width: 991px)
 {
 
@@ -135,7 +75,6 @@
         display: flex;
         flex-direction: row;
     }
-
 
     .header_next_navbar_right_container .nav-link{    
         padding-left: 10px !important;
@@ -161,31 +100,23 @@
     }
 }
 
-
-
-
 @media (max-width: 575px)
 {
     .header_next_navbar_right_container{
         order: 1;
         width: 100%;
-
         display:flex;
         flex-direction: row;
         justify-content: center;
-        
         border: solid 2px #353535;
-    
         border-right:none;
         border-left: none;
         border-top: none;
-
     }
 
     .header_next_navbar_left_container{
         order: 2;
         width: 100%;
-
         display:flex;
         flex-direction: row;
         justify-content: center;
@@ -214,11 +145,8 @@
         padding-left: 27.1px !important;
         padding-right: 27.1px !important;
         border: none;
-
         display: flex;
         flex-direction: column;
     }
-
-
 }
 

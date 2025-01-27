@@ -1,6 +1,4 @@
-
 @extends("layouts.draft")
-
 @if (session('success'))
     <script>
         window.onload = function() {
@@ -12,7 +10,6 @@
         };
     </script>
 @endif
-
 @if (session('error'))
     <script>
         window.onload = function() {
@@ -24,89 +21,33 @@
         };
     </script>
 @endif
-
-{{-- ----------------------------------------------------------------------------- --}}
-{{-- NAVBAR --}}
-{{-- ----------------------------------------------------------------------------- --}}
-
 @section('navbar')
-
-    {{-- ---- --}}
-        @include("layouts.sections.navbar")
-    {{-- ---- --}}
-
+ @include("layouts.sections.navbar")
 @endsection
 
-
-
-
-
-{{-- ----------------------------------------------------------------------------- --}}
-{{-- HOME TRAILER CARDS     and     HOME TRAILER VIDEO --}}
-{{-- ----------------------------------------------------------------------------- --}}
-
 @section('content_1')
-
-
     <div class="col-md-12 each_section">
         <div class="row p-0 p-md-2">
-
             <div class="col-md-12 each_section_design">
-
                 <div class="row">
-
-
-
                     <div class="col-md-4 col-xl-3 p-2">
-            
-                        <div class="container each_content bg-dark py-2 px-2 py-md-3 px-md-3" style="--br_size:2px;">
-                            {{-- py-2 px-2 py-md-3 px-md-4 --}}
-            
+                        <div class="container each_content bg-dark py-2 px-2 py-md-3 px-md-3" style="--br_size:2px;">         
                             <div class="row">
-            
-            
-                                {{-- ---- --}}
                                     @include("layouts.sections.home_trailer_cards")
-                                {{-- ---- --}}
-            
-            
                             </div>
-            
                         </div>
-            
                     </div>
-
-
-            
                     <div class="col-md-8 col-xl-9 p-2 d-flex flex-colum align-items-stretch">
-            
                         <div class="container each_content bg-dark px-0 py-2 py-md-3 px-md-1 d-flex flex-colum align-items-stretch justify-content-center" style="--br_size:2px;">
-            
                             <div class="row w-100 h-100">
-            
-            
-                                {{-- ---- --}}
                                     @include("layouts.sections.home_trailer_video")
-                                {{-- ---- --}}
-            
-            
                             </div>
-            
                         </div>
-            
                     </div>
-
-
-
-
-            
                 </div>
-            
             </div>
-
         </div>
     </div>
-
 @endsection
 
 

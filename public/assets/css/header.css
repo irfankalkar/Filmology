@@ -18,11 +18,6 @@
     border: solid 2px rgb(216, 20, 20);
 }
 
-
-
-
-
-
 header, header nav{
     background-color: #353535;
 }
@@ -66,10 +61,6 @@ header .container-fluid {
     padding-right: 0;
 }
 
-
-
-
-
 .header_navbar_container ul{
     display: flex;
     flex-direction: row;
@@ -86,19 +77,12 @@ header .container-fluid {
 }
 
 .header_options .nav-link:hover{
-    /* border: solid 2px rgb(168, 226, 251); */
     color: rgb(106, 210, 255);
-    /* border-radius: 10px; */
 }
-
 
 .header_options .nav_link_active{
     color: rgb(106, 210, 255);
 }
-
-
-
-
 
 .search_container input{
     border: none;
@@ -118,14 +102,11 @@ header .container-fluid {
     border: solid 1px white;
 }
 
-
 .search_container .btn:hover{
     background-color: rgb(7, 175, 247);
     color: white;
     border: none;
 }
-
-
 
 .profile_icon_container{
     display: flex;
@@ -143,10 +124,6 @@ header .container-fluid {
     cursor: pointer;
 }
 
-
-
-
-
 .dark_light_icons_container{
     display: flex;
     flex-direction: row;
@@ -158,10 +135,6 @@ header .container-fluid {
     font-size:20px;
 }
 
-
-
-
-
 .dark_light_icons_container .bi-brightness-high-fill:hover{
     color: orange;
 }
@@ -169,9 +142,6 @@ header .container-fluid {
 .dark_light_icons_container .bi-brightness-high-fill_active{
     color: orange;
 }
-
-
-
 
 .dark_light_icons_container .bi-moon-fill:hover{
     color: rgb(0, 159, 227);
@@ -181,21 +151,9 @@ header .container-fluid {
     color: rgb(0, 159, 227);
 }
 
-
-
-
 .more_options_icon_container{
     display: none;
 }
-
-
-
-
-
-
-
-
-
 
 @media (min-width: 992px) and (max-width: 1199px) {
 
@@ -208,8 +166,6 @@ header .container-fluid {
         position: absolute;
         top: 20%;
         left: 1.7%;
-
-        /* border: solid 1px white; */
         width: 15%;
     }
 
@@ -218,13 +174,10 @@ header .container-fluid {
         flex-direction: row;
         justify-content:space-between;
         border: none;
-
         font-size: 15px;
-
         padding-left: 0px;
         padding-right: 0px;
     }
-
 
     .header_options{
         padding-top: 5px;
@@ -235,8 +188,6 @@ header .container-fluid {
         justify-content:space-between;
     }
   }
-
-
 
   @media (min-width: 768px) and (max-width: 991px) {
 
@@ -249,8 +200,6 @@ header .container-fluid {
         position: absolute;
         top: 30%;
         left: 3%;
-
-        /* border: solid 1px white; */
         width: 19%;
     }
 
@@ -259,9 +208,7 @@ header .container-fluid {
         flex-direction: row;
         justify-content:space-between;
         border: none;
-
         font-size: 15px;
-
         padding-left: 0px;
         padding-right: 0px;
     }
@@ -298,9 +245,6 @@ header .container-fluid {
         order: 4;
         flex: 1 1 100%;
     }
-
-
-
   }
 
 
@@ -329,15 +273,11 @@ header .container-fluid {
         flex-direction: row;
         justify-content:space-between;
         border: none;
-
         font-size: 13px;
         color: rgb(172, 172, 172);
-
         padding-left: 0px;
         padding-right: 0px;
     }
-
-
 
     .header_items{
         flex-wrap: wrap;
@@ -363,14 +303,10 @@ header .container-fluid {
         flex: 1 1 50%;
     }
 
-
-
     .header_navbar_container ul{
         flex-direction: column;
     }
 
-
-    
     .more_options_icon_container{
         display: flex;
         flex-direction: row;
@@ -380,7 +316,6 @@ header .container-fluid {
 
     #responsive_header_items_field{
         border: solid 1px white;
-
         border-left: none;
         border-right: none;
         border-bottom: none;
@@ -392,5 +327,4 @@ header .container-fluid {
         padding-top: 5px;
         padding-bottom: 5px;
     }
-
   }

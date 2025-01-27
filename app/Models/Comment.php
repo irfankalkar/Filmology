@@ -10,21 +10,19 @@ class Comment extends Model
     use HasFactory;
 
     protected $fillable = [
-        'Comment', // Yorum içeriği
-        'User_ID', // Yorumu yapan kullanıcının ID'si
-        'Movie_ID', // Yorumun yapıldığı filmin ID'si
+        'Comment', 
+        'User_ID', 
+        'Movie_ID', 
         'C_Like',
         'Dislike',
         'Time',
     ];
 
-    // Yorumu yapan kullanıcıyla ilişki (opsiyonel)
     public function user()
     {
         return $this->belongsTo(User::class);
     }
 
-    // Yorumun yapıldığı filmle ilişki (opsiyonel)
     public function movie()
     {
         return $this->belongsTo(Movie::class);

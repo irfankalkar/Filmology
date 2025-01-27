@@ -1,28 +1,12 @@
 @import url("https://fonts.googleapis.com/css?family=Inconsolata:400,700");
 
-
-/* .content{
-  padding-top: 45px;
-  padding-bottom: 20px;
-} */
-
-/* .button_container{
-    width: 176px;
-    margin: 0 auto;
-    margin-top: 30px;
-    padding-top: 40px;
-} */
-
 .login_form_field .button_su{
   overflow: hidden;
   position: relative;
   display: inline-block;
   border-radius: 3px;
-
   width: 100%;
-
   border: solid 2px white;
-  /* margin-bottom: 30px; */
 }
 
 .login_form_field .su_button_circle{
@@ -36,7 +20,6 @@
   margin-left: 0px;
   margin-top: 0px;
   pointer-events: none;
-  /*animation-timing-function: ease-in-out; */
 }
 
 .login_form_field .button_su_inner{
@@ -44,19 +27,13 @@
     background: rgb(0, 159, 227);
     color: #F4F4F4;
     font-size: 16px;
-    /* font-weight: normal; */
-    /* width: 132px; */
     width: 100%;
     text-align: center;
-    /* border-radius: 1px; */
     transition: 400ms;
     text-decoration: none;
-
     padding-top: var(--pdt);
     padding-bottom: var(--pdb);
-
     z-index: 100000;
-
     font-weight: bold;
 }
 
@@ -67,7 +44,6 @@
 
 .login_form_field .explode-circle {
    animation: login_btn_explode 0.5s forwards;
-
 }
 
 .login_form_field .desplode-circle{
@@ -81,7 +57,6 @@
       margin-left: 0px;
       margin-top: 0px;
       background-color: rgba(255, 255, 255, 0.5);
-  
     }
     100% {
       width: 500px;
