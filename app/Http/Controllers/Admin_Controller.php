@@ -25,7 +25,7 @@ class Admin_Controller extends Controller
             'movieName' => 'required',
             'movieDuration' =>'required|numeric',
             'movieOriginalName' => 'required',
-            'movieReleaseDate' => 'required|numeric|min:1800|max:2025',
+            'movieReleaseDate' => 'required|numeric|min:1800|max:2200',
             'movieChooseCategory' => 'required',
             'movieScreenWriter' => 'required',
             'movieDirector' => 'required',
@@ -59,7 +59,7 @@ class Admin_Controller extends Controller
         ]);
     
         if($request)
-            return redirect()->route('admin_page')->with('succes', 'Film başarıyla eklendi.');
+            return redirect()->route('admin_page')->with('success', 'Film başarıyla eklendi.');
         else
             return redirect()->route('admin_page')->with('custom', 'Film eklenemedi.');
     }

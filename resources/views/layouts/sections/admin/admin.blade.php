@@ -1,16 +1,12 @@
 <div class="col-md-12 each_section_design admin">
-
     <div class="container each_content bg-dark text-white mt-3 mb-3" style="--br_size:3px;">
-
         <form action="{{ route("add_movie") }}" method="POST">
             @csrf
             <div class="col-md-12">
                 <div class="row py-3">
-    
                     <div class="col-md-12">
                         <h2>Film Ekle</h2>
                     </div>
-    
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-3 mt-2">
@@ -27,7 +23,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
@@ -56,7 +51,6 @@
                             </div>
                         </div>
                     </div>
-    
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
@@ -67,7 +61,6 @@
                             </div>
                         </div>
                     </div>
-    
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
@@ -78,7 +71,6 @@
                             </div>
                         </div>
                     </div>
-    
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
@@ -89,7 +81,6 @@
                             </div>
                         </div>
                     </div>
-    
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
@@ -100,7 +91,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
@@ -113,7 +103,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-12">
@@ -122,16 +111,11 @@
                             </div>
                         </div>
                     </div>
-    
                     <div class="col-md-12 mt-5">
                         <button type="submit" class="btn btn-primary w-100 border border-1"><b>EKLE</b></button>
                     </div>
-    
                 </div>
             </div>
-
         </form>
-
     </div>
-    
 </div>

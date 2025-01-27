@@ -28,7 +28,7 @@
                                             </a>
                                         </div>
                                         <div class="col-xxl-8 col-xl-7 order-1 order-xl-1 px-1 category_field d-flex align-items-center">
-                                            <a href=""> <span class="card-text"> <?php echo e($lMovie->Category); ?> </span> </a>
+                                            <a> <span class="card-text"> <?php echo e($lMovie->Category); ?> </span> </a>
                                         </div>
                                         <div class="col-xxl-4 col-xl-5 col-lg-5 col-md-5 col-sm-5 col-5 order-xl-2 order-3 px-1 rating_field">
                                             <ul class="list-inline mb-0 d-flex justify-content-end">
@@ -39,13 +39,13 @@
                                             </ul>
                                         </div>
                                         <div class="col-xxl-6 col-xl-6 col-lg-7 col-md-7 col-sm-7 col-7 order-xl-3 order-2 px-1 year_field d-flex align-items-center">
-                                            <a href=""> <span class="year"><?php echo e($lMovie->Movie_Release_Year); ?></span> </a>
+                                             <span class="year"><?php echo e($lMovie->Movie_Release_Year); ?></span>
                                         </div>
                                         <div class="col-xxl-3 col-xl-3 col-lg-4 col-md-4 col-sm-4 col-4 order-4 order-xl-4 px-1 comment_field">
                                             <ul class="list-inline mb-0 d-flex justify-content-xl-end justify-content-lg-start">
                                                 <li class="list-inline-item w-75 d-flex justify-content-between justify-content-sm-start align-items-center">
                                                     <i class="bi bi-chat-right-fill me-sm-1 "></i>
-                                                    <span class=""><?php echo e($movie->Comment_Count); ?></span>
+                                                    <span class=""><?php echo e($lMovie->Comment_Count); ?></span>
                                                 </li>
                                             </ul>
                                         </div>

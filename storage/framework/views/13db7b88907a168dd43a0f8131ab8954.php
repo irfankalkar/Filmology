@@ -1,3 +1,17 @@
+<?php if(session('success')): ?>
+    <div class="alert alert-success">
+        <?php echo e(session('success')); ?>
+
+    </div>
+<?php endif; ?>
+
+<?php if(session('error')): ?>
+    <div class="alert alert-danger">
+        <?php echo e(session('error')); ?>
+
+    </div>
+<?php endif; ?>
+
 <?php $__env->startSection('content_1'); ?>
     <div class="col-md-12 each_section">
         <div class="row p-2">

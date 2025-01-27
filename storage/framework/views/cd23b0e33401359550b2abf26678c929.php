@@ -1,40 +1,12 @@
-<?php if(session('success')): ?>
-    <script>
-        window.onload = function() {
-            Swal.fire({
-                icon: 'success',
-                title: 'Başarılı!',
-                text: '<?php echo e(session('success')); ?>'
-            });
-        };
-    </script>
-<?php endif; ?>
-
-<?php if(session('error')): ?>
-    <script>
-        window.onload = function() {
-            Swal.fire({
-                icon: 'error',
-                title: 'Hata!',
-                text: '<?php echo e(session('error')); ?>'
-            });
-        };
-    </script>
-<?php endif; ?>
-
 <div class="col-md-12 each_section_design admin">
-
     <div class="container each_content bg-dark text-white mt-3 mb-3" style="--br_size:3px;">
-
         <form action="<?php echo e(route("add_movie")); ?>" method="POST">
             <?php echo csrf_field(); ?>
             <div class="col-md-12">
                 <div class="row py-3">
-    
                     <div class="col-md-12">
                         <h2>Film Ekle</h2>
                     </div>
-    
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-3 mt-2">
@@ -51,7 +23,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
@@ -80,7 +51,6 @@
                             </div>
                         </div>
                     </div>
-    
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
@@ -91,18 +61,16 @@
                             </div>
                         </div>
                     </div>
-    
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
-                                <input name="movieImdbScore" class="form-control" type="numeric" max="10" placeholder="IMDB Puanı">
+                                <input name="movieImdbScore" class="form-control" type="text" placeholder="IMDB Puanı">
                             </div>
                             <div class="col-md-6 mt-2">
                                 <input name="movieActorActress1" class="form-control" type="text" placeholder="Oyuncu 1">
                             </div>
                         </div>
                     </div>
-    
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
@@ -113,7 +81,6 @@
                             </div>
                         </div>
                     </div>
-    
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
@@ -124,7 +91,6 @@
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-6 mt-2">
@@ -133,11 +99,10 @@
                             </div>
                             <div class="col-md-6 mt-2">
                                 <label class="form-label">Fragman Ekleyiniz</label>
-                                <input name="movieTrailer" class="form-control" type="text" placeholder="Video'ya ait IFRAME etiketini buraya giriniz...">
+                                <input name="movieTrailer" class="form-control" type="text" placeholder="Video'ya ait youtube linkini buraya giriniz...">
                             </div>
                         </div>
                     </div>
-
                     <div class="col-md-12 mt-4">
                         <div class="row">
                             <div class="col-md-12">
@@ -146,16 +111,11 @@
                             </div>
                         </div>
                     </div>
-    
                     <div class="col-md-12 mt-5">
                         <button type="submit" class="btn btn-primary w-100 border border-1"><b>EKLE</b></button>
                     </div>
-    
                 </div>
             </div>
-
         </form>
-
     </div>
-    
 </div><?php /**PATH C:\wamp64\www\Filmology-main\resources\views/layouts/sections/admin/admin.blade.php ENDPATH**/ ?>
